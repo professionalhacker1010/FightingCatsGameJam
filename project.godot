@@ -32,7 +32,7 @@ _global_script_class_icons={
 
 [application]
 
-config/name="Castagne Project"
+config/name="Fighting Game Jam"
 config/description="Simple Castagne project with all the needed addons. Enjoy!"
 run/main_scene="res://castagne/helpers/devtools/starter/CastagneStarter.tscn"
 config/icon="res://icon.png"
