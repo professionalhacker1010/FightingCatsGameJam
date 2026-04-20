@@ -4,5 +4,7 @@
 ## - Movement
 ## - Attack types
 ## etc.
+:Specs-Anims:
+# Automatic creation
 :Variables:
 ## These variables are common to all characters since it's in the skeleton.

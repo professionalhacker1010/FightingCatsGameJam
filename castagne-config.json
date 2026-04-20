@@ -1,10 +1,11 @@
 {
-	"CharacterPaths": "res://fighters/FighterCat1.casp, res://fighters/FighterCat2.casp",
+	"CharacterPaths": "res://fighters/FighterCat1.casp, res://fighters/FighterCat2.casp, res://DEV/MATT/BruceLee Fighter/BruceLee.casp",
 	"ConfigSkeleton": "res://castagne/helpers/genreskeletons/CC25DFighter.json",
 	"Editor-FirstTimeFlowDone": true,
 	"EditorCharacterOrder": [
 		100,
-		200
+		200,
+		300
 	],
 	"GameTitle": "ProjectFightingCats",
 	"GameVersion": "1.0",
@@ -330,5 +331,5 @@
 		}
 	],
 	"Modules-core": "res://castagne/modules/core/CMCore.gd",
-	"Skeletons": "res://fighters/Skeleton.casp"
+	"Skeletons": "res://fighters/Skeleton.casp, res://DEV/MATT/BruceLee Fighter/CustomFighter"
 }

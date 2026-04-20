@@ -1,0 +1,14 @@
+:Character:
+## This is the Character block, where you add some basic information about your character that can be accessed from outside, like their name or place on the select screen.
+## You can also add another file to this with the Skeleton: property.
+:Specs-Graphics:
+def GRAPHICS_ModelPath str() = res://DEV/MATT/BruceLee Fighter/Anims_BruceLee.glb
+def GRAPHICS_Scale int() = 700
+:Specs-AttacksTypes:
+# Automatic creation
+:Specs-AttacksMechanics:
+# Automatic creation
+:Specs-Anims:
+def ANIMS_UseStandardAnims bool() = 1
+def ANIM_Movement_Basic_Stand str() = MarshalIdle
+def ANIM_Movement_Basic_Stand_Loop int() = 74
