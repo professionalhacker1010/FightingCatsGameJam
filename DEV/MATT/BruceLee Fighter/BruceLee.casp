@@ -1,14 +1,34 @@
 :Character:
 ## This is the Character block, where you add some basic information about your character that can be accessed from outside, like their name or place on the select screen.
 ## You can also add another file to this with the Skeleton: property.
+
+def MOVE_Basic_WalkFSpeed int() = 100000
 :Specs-Graphics:
 def GRAPHICS_ModelPath str() = res://DEV/MATT/BruceLee Fighter/Anims_BruceLee.glb
-def GRAPHICS_Scale int() = 700
+def GRAPHICS_Scale int() = 600
 :Specs-AttacksTypes:
+# Automatic creation
+:Specs-AttacksThrows:
 # Automatic creation
 :Specs-AttacksMechanics:
 # Automatic creation
 :Specs-Anims:
 def ANIMS_UseStandardAnims bool() = 1
+def ANIM_Movement_Basic_AirIdle str() = 
+def ANIM_Movement_Basic_CrawlB str() = 
+def ANIM_Movement_Basic_CrawlF str() = 
+def ANIM_Movement_Basic_CrouchToStand str() = 
+def ANIM_Movement_Basic_Crouching str() = MarshCrouch
+def ANIM_Movement_Basic_JumpB str() = 
+def ANIM_Movement_Basic_JumpF str() = 
+def ANIM_Movement_Basic_JumpN str() = 
+def ANIM_Movement_Basic_Jumpsquat str() = 
+def ANIM_Movement_Basic_Landing str() = 
 def ANIM_Movement_Basic_Stand str() = MarshalIdle
+def ANIM_Movement_Basic_StandToCrouch str() = 
 def ANIM_Movement_Basic_Stand_Loop int() = 74
+def ANIM_Movement_Basic_Turnaround str() = 
+def ANIM_Movement_Basic_TurnaroundAirborne str() = 
+def ANIM_Movement_Basic_TurnaroundCrouch str() = 
+def ANIM_Movement_Basic_WalkB str() = MarshWalkB
+def ANIM_Movement_Basic_WalkF str() = MarshWlkFWD
