@@ -12,7 +12,7 @@ Skeleton: res://DEV/MATT/BruceLee Fighter/CustomFighter.casp
 :Specs-PhysicsMovement:
 def MOVE_Jump_JumpsquatTime int() = 12
 def MOVE_Landing_TimeAttack int() = 14
-def MOVE_Landing_TimeEmpty int() = 14
+def MOVE_Landing_TimeEmpty int() = 24
 :Specs-Graphics:
 def GRAPHICS_ModelPath str() = res://DEV/MATT/BruceLee Fighter/Anims_BruceLee.glb
 def GRAPHICS_Scale int() = 600
@@ -36,14 +36,14 @@ def ANIM_Movement_Basic_Jumpsquat str() = MarshalJumpStart
 def ANIM_Movement_Basic_Landing str() = MarshalJumpFall
 def ANIM_Movement_Basic_Stand str() = MarshalIdle
 def ANIM_Movement_Basic_StandToCrouch str() = 
-def ANIM_Movement_Basic_Stand_Loop int() = 74
+def ANIM_Movement_Basic_Stand_Loop int() = 60
 def ANIM_Movement_Basic_Turnaround str() = 
 def ANIM_Movement_Basic_TurnaroundAirborne str() = 
 def ANIM_Movement_Basic_TurnaroundCrouch str() = 
 def ANIM_Movement_Basic_WalkB str() = MarshWalkB
 def ANIM_Movement_Basic_WalkB_Loop int() = 48
 def ANIM_Movement_Basic_WalkF str() = MarshWlkFWD
-def ANIM_Movement_Basic_WalkF_Loop int() = 60
+def ANIM_Movement_Basic_WalkF_Loop int() = 61
 :Jab:
 # Register it so we can use it
 AttackRegister(Light)
