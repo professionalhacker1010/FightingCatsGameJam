@@ -1,11 +1,12 @@
 {
-	"CharacterPaths": "res://fighters/FighterCat1.casp, res://fighters/FighterCat2.casp, res://DEV/MATT/BruceLee Fighter/BruceLee.casp",
+	"CharacterPaths": "res://fighters/FighterCat1.casp, res://fighters/FighterCat2.casp, res://DEV/MATT/BruceLee Fighter/BruceLee.casp, res://castagne/examples/fighters/baston/Baston-25D.casp",
 	"ConfigSkeleton": "res://castagne/helpers/genreskeletons/CC25DFighter.json",
 	"Editor-FirstTimeFlowDone": true,
 	"EditorCharacterOrder": [
 		100,
 		200,
-		300
+		300,
+		400
 	],
 	"GameTitle": "ProjectFightingCats",
 	"GameVersion": "1.0",
