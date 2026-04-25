@@ -1,4 +1,4 @@
-[gd_scene load_steps=2 format=3 uid="uid://54usvtxxigmk"]
+[gd_scene format=3 uid="uid://54usvtxxigmk"]
 
 [ext_resource type="Script" uid="uid://bubva23df2k1e" path="res://Scripts/SakugaEngine/UI/ColorSelectionElement.cs" id="1_rmou7"]
 

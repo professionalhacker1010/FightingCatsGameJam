@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveSettings" format=3 uid="uid://bvamo7cm55714"]
+
+[ext_resource type="Resource" uid="uid://bcyy6q5j33eyu" path="res://Fighters/Shared/Inputs/10_Input_44.tres" id="1_rh2rw"]
+[ext_resource type="Script" uid="uid://gk1rkw667o4n" path="res://Scripts/SakugaEngine/Resources/MoveSettings.cs" id="2_3r22w"]
+
+[resource]
+script = ExtResource("2_3r22w")
+MoveName = "Backwards Air Dash"
+MoveState = 8
+Inputs = ExtResource("1_rh2rw")
+Priority = 2
+CanCancelTo = null
+ExtraVariablesRequirement = null
+ExtraVariablesChange = null
+UseOnAir = true

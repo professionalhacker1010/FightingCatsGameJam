@@ -1,0 +1,33 @@
+[gd_resource type="Resource" script_class="DataContainer" format=3 uid="uid://bxvywif4nphvi"]
+
+[ext_resource type="Script" uid="uid://c0y740kryylcs" path="res://Scripts/SakugaEngine/Resources/HitboxElement.cs" id="1_mri73"]
+[ext_resource type="Script" uid="uid://bsbjg1nuyall1" path="res://Scripts/SakugaEngine/Resources/DataContainer.cs" id="1_tj211"]
+[ext_resource type="Resource" uid="uid://twsttmien1a" path="res://DEV/MATT/BruceLee/BruceLee_Profile.tres" id="1_tls86"]
+[ext_resource type="Script" uid="uid://dxuwyhds75mce" path="res://Scripts/SakugaEngine/Resources/HitboxSettings.cs" id="2_kf4db"]
+[ext_resource type="Resource" uid="uid://cjscrojttoa72" path="res://DEV/MATT/BruceLee/Stance/Bruce_Lee_Stance.tres" id="4_jsr5b"]
+[ext_resource type="Resource" uid="uid://ce2skd31c18wl" path="res://DEV/MATT/BruceLee/States/BruceLee_State_Idle.tres" id="5_vemmf"]
+[ext_resource type="Resource" uid="uid://cjarssd2mjnuw" path="res://Fighters/Kaede/AI/Kaede_AIData.tres" id="6_j8qtx"]
+[ext_resource type="Resource" uid="uid://barl88l45m51n" path="res://DEV/MATT/BruceLee/States/BruceLee_State_WalkF.tres" id="6_je2n8"]
+[ext_resource type="Resource" uid="uid://bcbjqx54a0e6d" path="res://DEV/MATT/BruceLee/States/BruceLee_State_WalkB.tres" id="7_hkeq8"]
+
+[sub_resource type="Resource" id="Resource_v420q"]
+script = ExtResource("1_mri73")
+Size = Vector2i(10, 10)
+metadata/_custom_type_script = "uid://c0y740kryylcs"
+
+[sub_resource type="Resource" id="Resource_4cxuy"]
+script = ExtResource("2_kf4db")
+Hitboxes = [SubResource("Resource_v420q")]
+metadata/_custom_type_script = "uid://dxuwyhds75mce"
+
+[resource]
+script = ExtResource("1_tj211")
+Profile = ExtResource("1_tls86")
+Hitboxes = Array[Object]([SubResource("Resource_4cxuy")])
+States = Array[Object]([ExtResource("5_vemmf"), ExtResource("6_je2n8"), ExtResource("7_hkeq8")])
+Stances = Array[Object]([ExtResource("4_jsr5b")])
+_aiData = ExtResource("6_j8qtx")
+Intros = null
+Outros = null
+VictoryPoses = null
+metadata/_custom_type_script = "uid://bsbjg1nuyall1"

@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://cmq3cp1n0copp" path="res://Scripts/SakugaEngine/Components/FrameTimer.cs" id="1_5hpi4"]
 [ext_resource type="Script" uid="uid://bkhlpeqky2g1r" path="res://Scripts/SakugaEngine/Components/SakugaFighter.cs" id="1_pv6li"]
-[ext_resource type="Resource" uid="uid://cgfa1xwppjfy2" path="res://Fighters/Dummy/Dummy_Data.tres" id="2_nokef"]
+[ext_resource type="Resource" uid="uid://cgfa1xwppjfy2" path="res://Fighters/Dummy/Dummy_Data.tres" id="2_l18q0"]
 [ext_resource type="Script" uid="uid://dshbmw3q5jor2" path="res://Scripts/SakugaEngine/Components/InputManager.cs" id="2_ujbvg"]
 [ext_resource type="Resource" uid="uid://b6a4cqdykhhg" path="res://Fighters/Shared/Shared_VFXList.tres" id="3_gpsav"]
 [ext_resource type="Resource" uid="uid://k31pv0ejfv2s" path="res://Fighters/Shared/Shared_SFXList.tres" id="4_if7wg"]
@@ -16,13 +16,13 @@
 [ext_resource type="Script" uid="uid://jxgdxccucllx" path="res://Scripts/SakugaEngine/Components/CombatTracker.cs" id="18_2fc62"]
 [ext_resource type="Script" uid="uid://dvqrejewx20e3" path="res://Scripts/SakugaEngine/Components/AIBrain.cs" id="21_ljaat"]
 
-[sub_resource type="CapsuleMesh" id="CapsuleMesh_a468o"]
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_l18q0"]
 radius = 0.3
 height = 1.2
 radial_segments = 12
 rings = 3
 
-[sub_resource type="SphereMesh" id="SphereMesh_8pohn"]
+[sub_resource type="SphereMesh" id="SphereMesh_dj71i"]
 radius = 0.25
 height = 0.5
 radial_segments = 12
@@ -37,42 +37,41 @@ PushForce = NodePath("Timers/Pushback")
 HorizontalBounce = NodePath("Timers/HBounce")
 VerticalBounce = NodePath("Timers/VBounce")
 Brain = NodePath("AIBrain")
-Data = ExtResource("2_nokef")
+Data = ExtResource("2_l18q0")
 Body = NodePath("PhysicsBody")
 Inputs = NodePath("InputManager")
 Variables = NodePath("Variables")
 Animator = NodePath("Graphics/Mesh")
 StateMachine = NodePath("StateMachine")
 Tracker = NodePath("CombatTracker")
-Sounds = [NodePath("Sounds/SFX_0"), NodePath("Sounds/SFX_1"), NodePath("Sounds/SFX_2"), NodePath("Sounds/SFX_3"), NodePath("Sounds/SFX_4")]
-Graphics = [NodePath("Graphics/Mesh/Pivot")]
+Sounds = []
+Graphics = []
 VFXList = ExtResource("3_gpsav")
 SFXList = ExtResource("4_if7wg")
 VoiceLines = ExtResource("5_vp5cl")
 
 [node name="Graphics" type="Node3D" parent="." unique_id=516664656]
 
-[node name="Mesh" type="Node3D" parent="Graphics" unique_id=894168557 node_paths=PackedStringArray("players", "OffsetNode")]
+[node name="Mesh" type="Node3D" parent="Graphics" unique_id=894168557 node_paths=PackedStringArray("players")]
 script = ExtResource("5_nddkw")
-players = [NodePath("Pivot/AnimationPlayer")]
+players = []
 prefix = PackedStringArray("")
-OffsetNode = NodePath("Pivot")
 
-[node name="Pivot" type="Node3D" parent="Graphics/Mesh" unique_id=2052719790]
+[node name="Pivot" type="Node3D" parent="Graphics/Mesh" unique_id=1221176135]
 
-[node name="Body" type="MeshInstance3D" parent="Graphics/Mesh/Pivot" unique_id=1613367944]
+[node name="Body" type="MeshInstance3D" parent="Graphics/Mesh/Pivot" unique_id=987590362]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.6, 0)
 layers = 3
-mesh = SubResource("CapsuleMesh_a468o")
+mesh = SubResource("CapsuleMesh_l18q0")
 skeleton = NodePath("../..")
 
-[node name="Head" type="MeshInstance3D" parent="Graphics/Mesh/Pivot" unique_id=1213426719]
+[node name="Head" type="MeshInstance3D" parent="Graphics/Mesh/Pivot" unique_id=1707017322]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.35, 0)
 layers = 3
-mesh = SubResource("SphereMesh_8pohn")
+mesh = SubResource("SphereMesh_dj71i")
 skeleton = NodePath("../..")
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="Graphics/Mesh/Pivot" unique_id=981222213]
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Graphics/Mesh/Pivot" unique_id=1706662964]
 root_node = NodePath("../..")
 
 [node name="HitboxViewer" parent="." unique_id=551754026 node_paths=PackedStringArray("body") instance=ExtResource("14_1fhq1")]

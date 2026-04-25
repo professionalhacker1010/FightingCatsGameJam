@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=3 uid="uid://csdgicelabg4n"]
+[gd_scene format=3 uid="uid://csdgicelabg4n"]
 
 [ext_resource type="Texture2D" uid="uid://cq4kjdi28thw7" path="res://Sprites/SPR_Hitbox.png" id="1"]
 [ext_resource type="Script" uid="uid://kpk4r6112ckj" path="res://Scripts/SakugaEngine/Utils/HitboxPreviewer.cs" id="2"]

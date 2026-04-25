@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="FighterStance" load_steps=41 format=3 uid="uid://bpi3dgk313noc"]
+[gd_resource type="Resource" script_class="FighterStance" format=3 uid="uid://bpi3dgk313noc"]
 
 [ext_resource type="Resource" uid="uid://b1uqbm5bepxhv" path="res://Fighters/Kaede/Moves/0_Kaede_MoveForward.tres" id="1_8fbso"]
 [ext_resource type="Resource" uid="uid://dhmyuy5f4qm0x" path="res://Fighters/Kaede/Moves/1_Kaede_MoveBackwards.tres" id="2_2lsvi"]

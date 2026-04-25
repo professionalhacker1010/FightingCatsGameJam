@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="MoveSettings" format=3 uid="uid://cq70k2w014lqa"]
+
+[ext_resource type="Resource" uid="uid://biqgn48x4ggwh" path="res://Fighters/Shared/Inputs/1_Input_4.tres" id="1_hhsik"]
+[ext_resource type="Script" uid="uid://gk1rkw667o4n" path="res://Scripts/SakugaEngine/Resources/MoveSettings.cs" id="2_iq7bf"]
+
+[resource]
+script = ExtResource("2_iq7bf")
+MoveName = "Move Backwards"
+MoveState = 2
+Inputs = ExtResource("1_hhsik")
+SideChange = 2
+MoveEnd = 1
+MoveEndState = 0
+CanCancelTo = null
+ExtraVariablesRequirement = null
+ExtraVariablesChange = null
+CanBeOverrided = true
+UseOnGround = true

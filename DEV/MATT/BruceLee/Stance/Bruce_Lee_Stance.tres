@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="FighterStance" format=3 uid="uid://cjscrojttoa72"]
+
+[ext_resource type="Resource" uid="uid://5hu36hd87ndj" path="res://DEV/MATT/BruceLee/Moves/BruceLee_MoveF.tres" id="1_etu1x"]
+[ext_resource type="Script" uid="uid://00dse0vp38l7" path="res://Scripts/SakugaEngine/Resources/FighterStance.cs" id="1_y252j"]
+[ext_resource type="Resource" uid="uid://bpo4dmgk3s5nw" path="res://DEV/MATT/BruceLee/Moves/BruceLee_MoveB.tres" id="2_oewqm"]
+
+[resource]
+script = ExtResource("1_y252j")
+DefaultState = 1
+Moves = Array[Object]([ExtResource("1_etu1x"), ExtResource("2_oewqm")])
+metadata/_custom_type_script = "uid://00dse0vp38l7"

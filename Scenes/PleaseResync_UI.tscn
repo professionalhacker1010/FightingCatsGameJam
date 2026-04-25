@@ -1,4 +1,4 @@
-[gd_scene load_steps=2 format=3 uid="uid://dxj20xhmbkdbs"]
+[gd_scene format=3 uid="uid://dxj20xhmbkdbs"]
 
 [ext_resource type="Script" uid="uid://c1l1of15r75hp" path="res://Scripts/PleaseResync/Godot/ConnectionUI.cs" id="1_l2w7k"]
 

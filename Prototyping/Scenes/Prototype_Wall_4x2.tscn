@@ -1,4 +1,4 @@
-[gd_scene load_steps=2 format=3 uid="uid://d281ucn7lmqhm"]
+[gd_scene format=3 uid="uid://d281ucn7lmqhm"]
 
 [ext_resource type="PackedScene" uid="uid://cas4dyd7yuahk" path="res://Prototyping/Meshes/prototype_wall_4x2.gltf" id="1_gclwn"]
 

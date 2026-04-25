@@ -1,4 +1,4 @@
-[gd_scene load_steps=24 format=3 uid="uid://domhsm5n4i2q1"]
+[gd_scene format=3 uid="uid://domhsm5n4i2q1"]
 
 [ext_resource type="Script" uid="uid://ocvrnnvvf610" path="res://Scripts/SakugaEngine/Components/SakugaSpawnable.cs" id="1_dhydb"]
 [ext_resource type="Resource" uid="uid://blg5tsr3o8aai" path="res://Fighters/Kaede/Spawnables/0/Kaede_Spawnable1_Data.tres" id="2_0aw3w"]

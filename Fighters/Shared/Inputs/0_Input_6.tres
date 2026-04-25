@@ -4,17 +4,18 @@
 [ext_resource type="Script" uid="uid://di4jwsd3y2x8w" path="res://Scripts/SakugaEngine/Resources/MotionInputs.cs" id="1_cdk2f"]
 [ext_resource type="Script" uid="uid://ce6shsv0dij5v" path="res://Scripts/SakugaEngine/Resources/InputOption.cs" id="2_8b2qv"]
 
-[sub_resource type="Resource" id="Resource_rq7yo"]
+[sub_resource type="Resource" id="Resource_kapxc"]
 script = ExtResource("1_8b0jx")
 Directional = 4
-DirectionalMode = 1
+metadata/_custom_type_script = "uid://87xpa7lbksa8"
 
-[sub_resource type="Resource" id="Resource_i7k3e"]
+[sub_resource type="Resource" id="Resource_nkjds"]
 script = ExtResource("2_8b2qv")
-Inputs = Array[Object]([SubResource("Resource_rq7yo")])
+Inputs = Array[Object]([SubResource("Resource_kapxc")])
+metadata/_custom_type_script = "uid://ce6shsv0dij5v"
 
 [resource]
 script = ExtResource("1_cdk2f")
-ValidInputs = Array[Resource]([SubResource("Resource_i7k3e")])
+ValidInputs = Array[Object]([SubResource("Resource_nkjds")])
 AbsoluteDirection = true
 InputBuffer = 99999

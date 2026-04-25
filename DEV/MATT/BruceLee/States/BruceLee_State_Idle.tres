@@ -1,0 +1,50 @@
+[gd_resource type="Resource" script_class="FighterState" format=3 uid="uid://ce2skd31c18wl"]
+
+[ext_resource type="Script" uid="uid://b8vqwkv52qq3e" path="res://Scripts/SakugaEngine/Resources/AnimationSettings.cs" id="1_7yvns"]
+[ext_resource type="Script" uid="uid://bf60srwkccsm8" path="res://Scripts/SakugaEngine/Resources/FighterState.cs" id="1_vb5iu"]
+[ext_resource type="Script" uid="uid://5qrsoteskjym" path="res://Scripts/SakugaEngine/Resources/HitboxState.cs" id="2_0jiod"]
+[ext_resource type="Script" uid="uid://5you05l2efnd" path="res://Scripts/SakugaEngine/Resources/StatePhysics.cs" id="3_cdx7h"]
+[ext_resource type="Script" uid="uid://di4jwsd3y2x8w" path="res://Scripts/SakugaEngine/Resources/MotionInputs.cs" id="4_0jiod"]
+[ext_resource type="Script" uid="uid://bia88bspuvxd" path="res://Scripts/SakugaEngine/Resources/StateTransitionSettings.cs" id="5_nbbrc"]
+
+[sub_resource type="Resource" id="Resource_33x0f"]
+script = ExtResource("1_7yvns")
+SourceAnimation = "MarshalIdle"
+metadata/_custom_type_script = "uid://b8vqwkv52qq3e"
+
+[sub_resource type="Resource" id="Resource_nbbrc"]
+script = ExtResource("2_0jiod")
+metadata/_custom_type_script = "uid://5qrsoteskjym"
+
+[sub_resource type="Resource" id="Resource_okbqe"]
+script = ExtResource("3_cdx7h")
+UseLateralSpeed = true
+UseVerticalSpeed = true
+metadata/_custom_type_script = "uid://5you05l2efnd"
+
+[sub_resource type="Resource" id="Resource_0o4ox"]
+script = ExtResource("4_0jiod")
+ValidInputs = Array[Object]([])
+metadata/_custom_type_script = "uid://di4jwsd3y2x8w"
+
+[sub_resource type="Resource" id="Resource_dn8vq"]
+script = ExtResource("5_nbbrc")
+Condition = 16
+Inputs = SubResource("Resource_0o4ox")
+metadata/_custom_type_script = "uid://bia88bspuvxd"
+
+[resource]
+script = ExtResource("1_vb5iu")
+StateName = "Idle"
+Type = 1
+Duration = 74
+Loop = true
+LoopFrames = Vector2i(0, 74)
+stateProperties = null
+statePhysics = Array[Object]([SubResource("Resource_okbqe")])
+hitboxStates = Array[Object]([SubResource("Resource_nbbrc")])
+animationEvents = null
+throwPivot = null
+stateTransitions = Array[Object]([SubResource("Resource_dn8vq")])
+animationSettings = Array[Object]([SubResource("Resource_33x0f")])
+metadata/_custom_type_script = "uid://bf60srwkccsm8"

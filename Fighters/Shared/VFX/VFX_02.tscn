@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://ci8tj0xdjw1dl"]
+[gd_scene format=3 uid="uid://ci8tj0xdjw1dl"]
 
 [ext_resource type="Script" uid="uid://d4e1sv1gy8i8a" path="res://Scripts/SakugaEngine/Components/SakugaVFX.cs" id="1_kqvvl"]
 [ext_resource type="Texture2D" uid="uid://b0s24dtiuorpx" path="res://Sprites/VFX/6075-0.png" id="2_7sun0"]

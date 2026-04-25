@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="FighterProfile" format=3 uid="uid://twsttmien1a"]
+
+[ext_resource type="Texture2D" uid="uid://bolwggnxhwjes" path="res://DEV/MATT/Imported Assets/BruceLee_Portrait.png" id="1_gxggt"]
+[ext_resource type="Script" uid="uid://c5w04j5my3h8p" path="res://Scripts/SakugaEngine/Resources/FighterProfile.cs" id="1_nm407"]
+[ext_resource type="Texture2D" uid="uid://cpne6wv7pw3mj" path="res://DEV/MATT/Imported Assets/All_or_Nothing_Fighter_Base_CatFighter_Color.png" id="2_rd8hu"]
+
+[resource]
+script = ExtResource("1_nm407")
+FighterName = "Bruce Lee"
+ShortName = "Lee"
+Render = ExtResource("2_rd8hu")
+Portrait = ExtResource("1_gxggt")
+metadata/_custom_type_script = "uid://c5w04j5my3h8p"

@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="DataContainer" load_steps=9 format=3 uid="uid://blg5tsr3o8aai"]
+[gd_resource type="Resource" script_class="DataContainer" format=3 uid="uid://blg5tsr3o8aai"]
 
 [ext_resource type="Resource" uid="uid://dyam6gxn4slhs" path="res://Fighters/Kaede/Spawnables/0/Hitboxes/0_Hitbox_Spawnable_Basic.tres" id="1_vp2nd"]
 [ext_resource type="Resource" uid="uid://cwuwbygqhrjcb" path="res://Fighters/Kaede/Spawnables/0/States/0_Spawn.tres" id="3_woiq1"]

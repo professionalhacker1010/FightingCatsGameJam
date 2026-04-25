@@ -1,0 +1,56 @@
+[gd_resource type="Resource" script_class="FighterState" format=3 uid="uid://bjmednckt45tl"]
+
+[ext_resource type="Script" uid="uid://b8vqwkv52qq3e" path="res://Scripts/SakugaEngine/Resources/AnimationSettings.cs" id="1_ac4aw"]
+[ext_resource type="Script" uid="uid://5qrsoteskjym" path="res://Scripts/SakugaEngine/Resources/HitboxState.cs" id="2_wfl8r"]
+[ext_resource type="Script" uid="uid://bf60srwkccsm8" path="res://Scripts/SakugaEngine/Resources/FighterState.cs" id="3_8o0yo"]
+[ext_resource type="Script" uid="uid://5you05l2efnd" path="res://Scripts/SakugaEngine/Resources/StatePhysics.cs" id="4_u5wok"]
+[ext_resource type="Script" uid="uid://bia88bspuvxd" path="res://Scripts/SakugaEngine/Resources/StateTransitionSettings.cs" id="5_i85fg"]
+
+[sub_resource type="Resource" id="Resource_dntef"]
+script = ExtResource("1_ac4aw")
+SourceAnimation = "MarshKen_SLight"
+metadata/_custom_type_script = "uid://b8vqwkv52qq3e"
+
+[sub_resource type="Resource" id="Resource_ac4aw"]
+script = ExtResource("2_wfl8r")
+Frame = 4
+metadata/_custom_type_script = "uid://5qrsoteskjym"
+
+[sub_resource type="Resource" id="Resource_jnf3a"]
+script = ExtResource("2_wfl8r")
+animationStage = 1
+Frame = 9
+HitboxIndex = 1
+metadata/_custom_type_script = "uid://5qrsoteskjym"
+
+[sub_resource type="Resource" id="Resource_mgumk"]
+script = ExtResource("2_wfl8r")
+animationStage = 2
+Frame = 15
+metadata/_custom_type_script = "uid://5qrsoteskjym"
+
+[sub_resource type="Resource" id="Resource_u56o3"]
+script = ExtResource("4_u5wok")
+UseLateralSpeed = true
+UseVerticalSpeed = true
+metadata/_custom_type_script = "uid://5you05l2efnd"
+
+[sub_resource type="Resource" id="Resource_ifcll"]
+script = ExtResource("5_i85fg")
+StateIndex = 0
+Condition = 1
+metadata/_custom_type_script = "uid://bia88bspuvxd"
+
+[resource]
+script = ExtResource("3_8o0yo")
+StateName = "5A Slight"
+Type = 2
+Duration = 20
+stateProperties = null
+statePhysics = Array[Object]([SubResource("Resource_u56o3")])
+hitboxStates = Array[Object]([SubResource("Resource_ac4aw"), SubResource("Resource_jnf3a"), SubResource("Resource_mgumk")])
+animationEvents = null
+throwPivot = null
+stateTransitions = Array[Object]([SubResource("Resource_ifcll")])
+animationSettings = Array[Object]([SubResource("Resource_dntef")])
+metadata/_custom_type_script = "uid://bf60srwkccsm8"
