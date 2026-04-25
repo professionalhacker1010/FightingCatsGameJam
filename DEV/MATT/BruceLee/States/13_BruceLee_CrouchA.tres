@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="FighterState" format=3 uid="uid://bwu46a7wu71fb"]
+
+[ext_resource type="Script" uid="uid://bf60srwkccsm8" path="res://Scripts/SakugaEngine/Resources/FighterState.cs" id="1_c4418"]
+[ext_resource type="Script" uid="uid://5you05l2efnd" path="res://Scripts/SakugaEngine/Resources/StatePhysics.cs" id="2_42r7i"]
+
+[sub_resource type="Resource" id="Resource_byvca"]
+script = ExtResource("2_42r7i")
+UseLateralSpeed = true
+UseVerticalSpeed = true
+metadata/_custom_type_script = "uid://5you05l2efnd"
+
+[resource]
+script = ExtResource("1_c4418")
+StateName = "CrouchA"
+BaseStance = 1
+Type = 2
+stateProperties = null
+statePhysics = Array[Object]([SubResource("Resource_byvca")])
+hitboxStates = null
+animationEvents = null
+throwPivot = null
+stateTransitions = null
+animationSettings = null
+metadata/_custom_type_script = "uid://bf60srwkccsm8"

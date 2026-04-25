@@ -1,14 +1,14 @@
-[gd_scene format=4 uid="uid://bab0dt28s0cal"]
+[gd_scene format=4 uid="uid://b5egsc5smesv0"]
 
-[ext_resource type="Resource" uid="uid://bxvywif4nphvi" path="res://DEV/MATT/BruceLee/BruceLee_Data.tres" id="2_0tw21"]
+[ext_resource type="Resource" uid="uid://21hrykuk541g" path="res://DEV/MATT/BruceLee/BruceLee_Data.tres" id="2_0tw21"]
 [ext_resource type="Script" uid="uid://bkhlpeqky2g1r" path="res://Scripts/SakugaEngine/Components/SakugaFighter.cs" id="2_8q82g"]
 [ext_resource type="Script" uid="uid://hg0vcp1gy2ny" path="res://Scripts/SakugaEngine/Collision/PhysicsBody.cs" id="3_0tw21"]
+[ext_resource type="Texture2D" uid="uid://dcah5l16qgdj" path="res://DEV/MATT/BruceLee/Imported Assets/Anims_BruceLee_Material.png" id="4_0tw21"]
 [ext_resource type="Script" uid="uid://dshbmw3q5jor2" path="res://Scripts/SakugaEngine/Components/InputManager.cs" id="4_mh1v0"]
 [ext_resource type="Script" uid="uid://v7id8u3160fg" path="res://Scripts/SakugaEngine/Components/FighterVariables.cs" id="5_bvaw4"]
 [ext_resource type="Script" uid="uid://bx452hpssiy38" path="res://Scripts/SakugaEngine/Components/FrameAnimator.cs" id="6_yuhgf"]
 [ext_resource type="Script" uid="uid://17dvgaypi8q0" path="res://Scripts/SakugaEngine/Components/SakugaStateMachine.cs" id="7_0kh4c"]
 [ext_resource type="Script" uid="uid://jxgdxccucllx" path="res://Scripts/SakugaEngine/Components/CombatTracker.cs" id="8_youw7"]
-[ext_resource type="Texture2D" uid="uid://dcah5l16qgdj" path="res://DEV/MATT/Imported Assets/Anims_BruceLee_Material.png" id="9_0tw21"]
 [ext_resource type="Script" uid="uid://cmq3cp1n0copp" path="res://Scripts/SakugaEngine/Components/FrameTimer.cs" id="9_8q82g"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_d45fr"]
@@ -28,7 +28,7 @@ metadata/extras = {
 resource_name = "MAT_Body"
 cull_mode = 2
 vertex_color_use_as_albedo = true
-albedo_texture = ExtResource("9_0tw21")
+albedo_texture = ExtResource("4_0tw21")
 roughness = 0.5
 metadata/extras = {
 "mmd_material": {},

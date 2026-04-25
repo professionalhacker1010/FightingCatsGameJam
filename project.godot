@@ -14,7 +14,7 @@ compatibility/default_parent_skeleton_in_mesh_instance_3d=true
 
 [application]
 
-config/name="Sakuga Engine (4.6)"
+config/name="Fighting Game Jam"
 config/tags=PackedStringArray("game", "high_priority", "library")
 run/main_scene="uid://dn8hnj6b1vxko"
 config/features=PackedStringArray("4.6", "C#", "GL Compatibility")

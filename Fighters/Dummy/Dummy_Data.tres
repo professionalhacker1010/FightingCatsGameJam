@@ -4,7 +4,7 @@
 [ext_resource type="Resource" uid="uid://b5x4otrs0q04d" path="res://Fighters/Dummy/Hitboxes/0_Hitbox_Basic.tres" id="1_j75aq"]
 [ext_resource type="Resource" uid="uid://dfma5gqaldi8g" path="res://Fighters/Dummy/Dummy_Profile.tres" id="2_shirj"]
 [ext_resource type="Resource" uid="uid://cjsr2weyqwopy" path="res://Fighters/Dummy/Stances/0_Dummy_Stance_Main.tres" id="3_m7b0c"]
-[ext_resource type="Resource" uid="uid://ce2skd31c18wl" path="res://DEV/MATT/BruceLee/States/BruceLee_State_Idle.tres" id="4_shirj"]
+[ext_resource type="Resource" uid="uid://dmfn50x0ch85i" path="res://Fighters/Dummy/States/0_Dummy_Neutral.tres" id="4_shirj"]
 [ext_resource type="Resource" uid="uid://dorfl234p1ked" path="res://Fighters/Dummy/States/1_Dummy_MoveF.tres" id="5_ehl5k"]
 [ext_resource type="Resource" uid="uid://m6lyvybvjhw" path="res://Fighters/Dummy/States/2_Dummy_MoveB.tres" id="6_prr05"]
 [ext_resource type="Resource" uid="uid://byct5p1ygoaxr" path="res://Fighters/Dummy/States/3_Dummy_Jump_Neutral.tres" id="7_grrr8"]

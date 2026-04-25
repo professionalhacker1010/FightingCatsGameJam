@@ -1,5 +1,0 @@
-[gd_scene format=3 uid="uid://bknexxmjc0g4p"]
-
-[ext_resource type="PackedScene" uid="uid://cfmsdpkx1xmlt" path="res://DEV/MATT/Imported Assets/Anims_BruceLee.glb" id="1_5qg4l"]
-
-[node name="Anims_BruceLee" unique_id=907881137 instance=ExtResource("1_5qg4l")]

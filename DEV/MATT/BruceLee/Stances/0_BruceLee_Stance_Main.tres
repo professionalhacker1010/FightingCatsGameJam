@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="FighterStance" format=3 uid="uid://dcoopbo20ff6k"]
+
+[ext_resource type="Resource" uid="uid://c1qv4wfhhfdl8" path="res://DEV/MATT/BruceLee/Moves/0_BruceLee_MoveF.tres" id="1_hiop8"]
+[ext_resource type="Resource" uid="uid://cq70k2w014lqa" path="res://DEV/MATT/BruceLee/Moves/1_BruceLee_MoveB.tres" id="2_28ssq"]
+[ext_resource type="Resource" uid="uid://bao80vgbbed5g" path="res://DEV/MATT/BruceLee/Moves/2_BruceLee_JumpN.tres" id="3_qb5hn"]
+[ext_resource type="Resource" uid="uid://b4q6t1evfm4d3" path="res://DEV/MATT/BruceLee/Moves/3_BruceLee_JumpF.tres" id="4_wmnmo"]
+[ext_resource type="Resource" uid="uid://t0lh7y586nnx" path="res://DEV/MATT/BruceLee/Moves/4_BruceLee_JumpB.tres" id="5_e358q"]
+[ext_resource type="Resource" uid="uid://m6qwm7acgujq" path="res://DEV/MATT/BruceLee/Moves/5_BruceLee_AirDashF.tres" id="6_3trsr"]
+[ext_resource type="Resource" uid="uid://bvamo7cm55714" path="res://DEV/MATT/BruceLee/Moves/6_BruceLee_AirDashB.tres" id="7_gmoxq"]
+[ext_resource type="Resource" uid="uid://buw6u2iqe64f2" path="res://DEV/MATT/BruceLee/Moves/7_BruceLee_5A.tres" id="8_2mkwo"]
+[ext_resource type="Resource" uid="uid://da2cn11x0vh2j" path="res://DEV/MATT/BruceLee/Moves/8_BruceLee_5B.tres" id="9_q7ibd"]
+[ext_resource type="Resource" uid="uid://dmaxjlrb0s5v" path="res://DEV/MATT/BruceLee/Moves/9_BruceLee_5C.tres" id="10_3xr56"]
+[ext_resource type="Resource" uid="uid://bx4nfx5i2v0pv" path="res://DEV/MATT/BruceLee/Moves/10_BruceLee_Crouch.tres" id="11_aoq07"]
+[ext_resource type="Resource" uid="uid://cb0c1wvekl1cl" path="res://DEV/MATT/BruceLee/Moves/11_BruceLee_CrouchA.tres" id="12_rgb5h"]
+[ext_resource type="Resource" uid="uid://buh0u5pwi5h8t" path="res://DEV/MATT/BruceLee/Moves/12_BruceLee_CrouchC.tres" id="13_rmf84"]
+[ext_resource type="Resource" uid="uid://dpeg50v4thfx3" path="res://DEV/MATT/BruceLee/Moves/13_BruceLee_Uncrouch.tres" id="14_28ssq"]
+[ext_resource type="Script" uid="uid://00dse0vp38l7" path="res://Scripts/SakugaEngine/Resources/FighterStance.cs" id="14_fnt5r"]
+
+[resource]
+script = ExtResource("14_fnt5r")
+Moves = Array[Object]([ExtResource("1_hiop8"), ExtResource("2_28ssq"), ExtResource("3_qb5hn"), ExtResource("4_wmnmo"), ExtResource("5_e358q"), ExtResource("6_3trsr"), ExtResource("7_gmoxq"), ExtResource("8_2mkwo"), ExtResource("9_q7ibd"), ExtResource("10_3xr56"), ExtResource("11_aoq07"), ExtResource("12_rgb5h"), ExtResource("13_rmf84"), ExtResource("14_28ssq")])
+HitReactions = PackedInt32Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
