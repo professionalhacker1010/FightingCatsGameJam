@@ -1,5 +1,0 @@
-[gd_scene load_steps=2 format=2]
-
-[ext_resource path="res://DEV/MATT/BruceLee Fighter/Anims_BruceLee.glb" type="PackedScene" id=1]
-
-[node name="Anims_BruceLee" instance=ExtResource( 1 )]
