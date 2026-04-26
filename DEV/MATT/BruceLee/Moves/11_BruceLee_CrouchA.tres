@@ -59,6 +59,7 @@ MoveName = "CrouchA"
 MoveState = 13
 Inputs = ExtResource("2_7rbt4")
 Priority = 5
+MoveEndState = 12
 CanCancelTo = Array[Object]([SubResource("Resource_cpbnt"), SubResource("Resource_gac08"), SubResource("Resource_khioq"), SubResource("Resource_atndp"), SubResource("Resource_63y75"), SubResource("Resource_4hq8l"), SubResource("Resource_4skw2")])
 ExtraVariablesRequirement = null
 ExtraVariablesChange = null

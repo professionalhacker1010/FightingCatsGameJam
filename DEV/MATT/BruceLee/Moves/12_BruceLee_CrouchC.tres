@@ -55,10 +55,12 @@ metadata/_custom_type_script = "uid://dpgs1fcn5u351"
 
 [resource]
 script = ExtResource("3_2va8w")
-MoveName = "Crouch B"
+MoveName = "Crouch C"
 MoveState = 14
 Inputs = ExtResource("2_jh7di")
+SideChange = 1
 Priority = 5
+MoveEndState = 12
 CanCancelTo = Array[Object]([SubResource("Resource_cpbnt"), SubResource("Resource_gac08"), SubResource("Resource_khioq"), SubResource("Resource_atndp"), SubResource("Resource_63y75"), SubResource("Resource_4hq8l"), SubResource("Resource_4skw2")])
 ExtraVariablesRequirement = null
 ExtraVariablesChange = null

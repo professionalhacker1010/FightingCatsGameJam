@@ -21,9 +21,9 @@ UseVerticalSpeed = true
 [resource]
 script = ExtResource("2_uvujc")
 Type = 1
-Duration = 64
+Duration = 58
 Loop = true
-LoopFrames = Vector2i(0, 64)
+LoopFrames = Vector2i(0, 58)
 stateProperties = null
 statePhysics = Array[Object]([SubResource("Resource_aim2h")])
 hitboxStates = Array[Object]([SubResource("Resource_rpu4i")])

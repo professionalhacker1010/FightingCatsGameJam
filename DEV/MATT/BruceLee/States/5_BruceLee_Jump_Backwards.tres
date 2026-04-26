@@ -28,7 +28,7 @@ Gravity = 200000
 [sub_resource type="Resource" id="Resource_gult3"]
 script = ExtResource("3_57aug")
 StateIndex = 6
-Condition = 16
+Condition = 1
 
 [resource]
 script = ExtResource("1_8rwm4")

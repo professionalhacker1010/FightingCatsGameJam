@@ -22,12 +22,13 @@
 [ext_resource type="Resource" uid="uid://bwu46a7wu71fb" path="res://DEV/MATT/BruceLee/States/13_BruceLee_CrouchA.tres" id="18_ufwxj"]
 [ext_resource type="Resource" uid="uid://byxkmer2mlye0" path="res://DEV/MATT/BruceLee/States/14_BruceLee_CrouchC.tres" id="19_xll11"]
 [ext_resource type="Resource" uid="uid://5nlpkt4upbem" path="res://DEV/MATT/BruceLee/States/15_BruceLee_CrouchExit.tres" id="20_vk2ei"]
+[ext_resource type="Resource" uid="uid://bc30poq7tymmu" path="res://DEV/MATT/BruceLee/States/16_BruceLee_CrouchEnter.tres" id="21_e37wp"]
 
 [resource]
 script = ExtResource("1_tj211")
 Profile = ExtResource("1_tls86")
 Hitboxes = Array[Object]([ExtResource("1_stdsy"), ExtResource("2_pvumc")])
-States = Array[Object]([ExtResource("5_g84hd"), ExtResource("6_hnu7d"), ExtResource("7_vk2ei"), ExtResource("8_e37wp"), ExtResource("9_cyhgi"), ExtResource("10_ufwxj"), ExtResource("11_xll11"), ExtResource("12_wy1og"), ExtResource("13_fghc2"), ExtResource("14_6w51n"), ExtResource("15_vk2ei"), ExtResource("16_e37wp"), ExtResource("17_cyhgi"), ExtResource("18_ufwxj"), ExtResource("19_xll11"), ExtResource("20_vk2ei")])
+States = Array[Object]([ExtResource("5_g84hd"), ExtResource("6_hnu7d"), ExtResource("7_vk2ei"), ExtResource("8_e37wp"), ExtResource("9_cyhgi"), ExtResource("10_ufwxj"), ExtResource("11_xll11"), ExtResource("12_wy1og"), ExtResource("13_fghc2"), ExtResource("14_6w51n"), ExtResource("15_vk2ei"), ExtResource("16_e37wp"), ExtResource("17_cyhgi"), ExtResource("18_ufwxj"), ExtResource("19_xll11"), ExtResource("20_vk2ei"), ExtResource("21_e37wp")])
 Stances = Array[Object]([ExtResource("4_hnu7d")])
 _aiData = ExtResource("6_j8qtx")
 Intros = Array[Object]([])

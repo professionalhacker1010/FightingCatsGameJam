@@ -18,7 +18,7 @@ UseGravity = true
 
 [sub_resource type="Resource" id="Resource_ylaam"]
 script = ExtResource("3_mjlar")
-Frame = 4
+Frame = 8
 UseLateralSpeed = true
 UseVerticalSpeed = true
 VerticalSpeed = 65000
@@ -26,14 +26,14 @@ UseGravity = true
 
 [sub_resource type="Resource" id="Resource_8eh53"]
 script = ExtResource("3_mjlar")
-Frame = 5
+Frame = 10
 UseGravity = true
 Gravity = 200000
 
 [sub_resource type="Resource" id="Resource_6jefl"]
 script = ExtResource("4_v1lkr")
 StateIndex = 6
-Condition = 16
+Condition = 1
 
 [resource]
 script = ExtResource("2_ve7nv")

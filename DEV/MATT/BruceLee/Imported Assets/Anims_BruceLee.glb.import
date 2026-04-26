@@ -30879,6 +30879,23 @@ _subresources={
 "slice_99/start_frame": 0,
 "slices/amount": 0
 }
+},
+"materials": {
+"MAT_Body": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://DEV/MATT/BruceLee/Imported Assets/Textures/MAT_Body.tres",
+"use_external/path": "uid://cmqgc4x8akama"
+},
+"MAT_Head": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://DEV/MATT/BruceLee/Imported Assets/Textures/MAT_Head.tres",
+"use_external/path": "uid://324flh1hrqg8"
+},
+"MAT_Head.001": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://DEV/MATT/BruceLee/Imported Assets/Textures/MAT_Head.001.tres",
+"use_external/path": "uid://ct1serma60kt"
+}
 }
 }
 gltf/naming_version=2
