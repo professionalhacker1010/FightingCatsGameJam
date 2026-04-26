@@ -3,11 +3,16 @@
 [ext_resource type="Resource" uid="uid://el3505sgffn2" path="res://DEV/MATT/BruceLee/Hitboxes/0_Hitbox_Basic.tres" id="1_stdsy"]
 [ext_resource type="Script" uid="uid://bsbjg1nuyall1" path="res://Scripts/SakugaEngine/Resources/DataContainer.cs" id="1_tj211"]
 [ext_resource type="Resource" uid="uid://b342djrefo0h8" path="res://DEV/MATT/BruceLee/BruceLee_Profile.tres" id="1_tls86"]
-[ext_resource type="Resource" uid="uid://bcfhwb8mquml6" path="res://DEV/MATT/BruceLee/Hitboxes/1_Hitbox_5A.tres" id="2_pvumc"]
+[ext_resource type="Resource" uid="uid://du8fgcmcasiv1" path="res://DEV/MATT/BruceLee/Hitboxes/1_Hitbox_Crouch.tres" id="2_fghc2"]
+[ext_resource type="Resource" uid="uid://bcfhwb8mquml6" path="res://DEV/MATT/BruceLee/Hitboxes/2_Hitbox_5A.tres" id="2_pvumc"]
 [ext_resource type="Resource" uid="uid://dcoopbo20ff6k" path="res://DEV/MATT/BruceLee/Stances/0_BruceLee_Stance_Main.tres" id="4_hnu7d"]
+[ext_resource type="Resource" uid="uid://llgxanwbgmic" path="res://DEV/MATT/BruceLee/Hitboxes/3_Hitbox_5B.tres" id="4_mjx4n"]
 [ext_resource type="Resource" uid="uid://bgbajl6jn757x" path="res://DEV/MATT/BruceLee/States/0_BruceLee_Neutral.tres" id="5_g84hd"]
+[ext_resource type="Resource" uid="uid://buwmtndia24ue" path="res://DEV/MATT/BruceLee/Hitboxes/4_Hitbox_5C.tres" id="5_nicag"]
+[ext_resource type="Resource" uid="uid://uu81xknc7xsa" path="res://DEV/MATT/BruceLee/Hitboxes/5_Hitbox_CrouchA.tres" id="6_dphqt"]
 [ext_resource type="Resource" uid="uid://cxig5llcfm1j5" path="res://DEV/MATT/BruceLee/States/1_BruceLee_MoveF.tres" id="6_hnu7d"]
 [ext_resource type="Resource" uid="uid://cjarssd2mjnuw" path="res://Fighters/Kaede/AI/Kaede_AIData.tres" id="6_j8qtx"]
+[ext_resource type="Resource" uid="uid://cxkqowr2rwhyh" path="res://DEV/MATT/BruceLee/Hitboxes/6_Hitbox_CrouchC.tres" id="7_31k1q"]
 [ext_resource type="Resource" uid="uid://jivs82xk7qld" path="res://DEV/MATT/BruceLee/States/2_BruceLee_MoveB.tres" id="7_vk2ei"]
 [ext_resource type="Resource" uid="uid://daeaukeuwmvty" path="res://DEV/MATT/BruceLee/States/3_BruceLee_Jump_Neutral.tres" id="8_e37wp"]
 [ext_resource type="Resource" uid="uid://d2h3bmnidaq67" path="res://DEV/MATT/BruceLee/States/4_BruceLee_Jump_Forward.tres" id="9_cyhgi"]
@@ -27,7 +32,7 @@
 [resource]
 script = ExtResource("1_tj211")
 Profile = ExtResource("1_tls86")
-Hitboxes = Array[Object]([ExtResource("1_stdsy"), ExtResource("2_pvumc")])
+Hitboxes = Array[Object]([ExtResource("1_stdsy"), ExtResource("2_fghc2"), ExtResource("2_pvumc"), ExtResource("4_mjx4n"), ExtResource("5_nicag"), ExtResource("6_dphqt"), ExtResource("7_31k1q")])
 States = Array[Object]([ExtResource("5_g84hd"), ExtResource("6_hnu7d"), ExtResource("7_vk2ei"), ExtResource("8_e37wp"), ExtResource("9_cyhgi"), ExtResource("10_ufwxj"), ExtResource("11_xll11"), ExtResource("12_wy1og"), ExtResource("13_fghc2"), ExtResource("14_6w51n"), ExtResource("15_vk2ei"), ExtResource("16_e37wp"), ExtResource("17_cyhgi"), ExtResource("18_ufwxj"), ExtResource("19_xll11"), ExtResource("20_vk2ei"), ExtResource("21_e37wp")])
 Stances = Array[Object]([ExtResource("4_hnu7d")])
 _aiData = ExtResource("6_j8qtx")

@@ -6,7 +6,6 @@
 [resource]
 script = ExtResource("3_kab0q")
 MoveName = "Uncrouch"
-MoveState = 15
 Inputs = ExtResource("2_h5k73")
 SideChange = 1
 MoveEnd = 1
