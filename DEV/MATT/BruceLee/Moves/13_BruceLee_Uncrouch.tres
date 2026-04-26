@@ -10,6 +10,7 @@ MoveState = 15
 Inputs = ExtResource("2_h5k73")
 SideChange = 1
 MoveEnd = 1
+IsSequenceFromStates = PackedInt32Array(12)
 CanCancelTo = null
 ExtraVariablesRequirement = null
 ExtraVariablesChange = null
