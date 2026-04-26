@@ -1,51 +1,51 @@
 [gd_resource type="Resource" script_class="FighterState" format=3 uid="uid://dgpos6slrwn1j"]
 
-[ext_resource type="Script" uid="uid://b8vqwkv52qq3e" path="res://Scripts/SakugaEngine/Resources/AnimationSettings.cs" id="1_l483a"]
-[ext_resource type="Script" uid="uid://5qrsoteskjym" path="res://Scripts/SakugaEngine/Resources/HitboxState.cs" id="2_38yiw"]
-[ext_resource type="Script" uid="uid://bf60srwkccsm8" path="res://Scripts/SakugaEngine/Resources/FighterState.cs" id="3_had7w"]
-[ext_resource type="Script" uid="uid://5you05l2efnd" path="res://Scripts/SakugaEngine/Resources/StatePhysics.cs" id="4_dy62h"]
-[ext_resource type="Script" uid="uid://bia88bspuvxd" path="res://Scripts/SakugaEngine/Resources/StateTransitionSettings.cs" id="5_610og"]
+[ext_resource type="Script" uid="uid://b8vqwkv52qq3e" path="res://Scripts/SakugaEngine/Resources/AnimationSettings.cs" id="1_mg7ud"]
+[ext_resource type="Script" uid="uid://5qrsoteskjym" path="res://Scripts/SakugaEngine/Resources/HitboxState.cs" id="2_1heee"]
+[ext_resource type="Script" uid="uid://bf60srwkccsm8" path="res://Scripts/SakugaEngine/Resources/FighterState.cs" id="3_a0l7f"]
+[ext_resource type="Script" uid="uid://5you05l2efnd" path="res://Scripts/SakugaEngine/Resources/StatePhysics.cs" id="4_wv8tf"]
+[ext_resource type="Script" uid="uid://bia88bspuvxd" path="res://Scripts/SakugaEngine/Resources/StateTransitionSettings.cs" id="5_hdahj"]
 
 [sub_resource type="Resource" id="Resource_csck0"]
-script = ExtResource("1_l483a")
-SourceAnimation = "MarshCrouchHeavy"
+script = ExtResource("1_mg7ud")
+SourceAnimation = "Z_HVY_attack_crouch"
 metadata/_custom_type_script = "uid://b8vqwkv52qq3e"
 
 [sub_resource type="Resource" id="Resource_ixq85"]
-script = ExtResource("2_38yiw")
+script = ExtResource("2_1heee")
 metadata/_custom_type_script = "uid://5qrsoteskjym"
 
 [sub_resource type="Resource" id="Resource_o8lkc"]
-script = ExtResource("2_38yiw")
+script = ExtResource("2_1heee")
 animationStage = 1
 Frame = 16
 HitboxIndex = 6
 metadata/_custom_type_script = "uid://5qrsoteskjym"
 
 [sub_resource type="Resource" id="Resource_h0rf4"]
-script = ExtResource("2_38yiw")
+script = ExtResource("2_1heee")
 animationStage = 2
 Frame = 20
 metadata/_custom_type_script = "uid://5qrsoteskjym"
 
 [sub_resource type="Resource" id="Resource_la6o6"]
-script = ExtResource("4_dy62h")
+script = ExtResource("4_wv8tf")
 UseLateralSpeed = true
 UseVerticalSpeed = true
 metadata/_custom_type_script = "uid://5you05l2efnd"
 
 [sub_resource type="Resource" id="Resource_xjvkh"]
-script = ExtResource("5_610og")
+script = ExtResource("5_hdahj")
 StateIndex = 12
 Condition = 1
 metadata/_custom_type_script = "uid://bia88bspuvxd"
 
 [resource]
-script = ExtResource("3_had7w")
+script = ExtResource("3_a0l7f")
 StateName = "CrouchC"
 BaseStance = 1
 Type = 2
-Duration = 60
+Duration = 59
 stateProperties = null
 statePhysics = Array[Object]([SubResource("Resource_la6o6")])
 hitboxStates = Array[Object]([SubResource("Resource_ixq85"), SubResource("Resource_o8lkc"), SubResource("Resource_h0rf4")])

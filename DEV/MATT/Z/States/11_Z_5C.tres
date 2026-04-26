@@ -1,50 +1,50 @@
 [gd_resource type="Resource" script_class="FighterState" format=3 uid="uid://itqm0e8pub0i"]
 
-[ext_resource type="Script" uid="uid://b8vqwkv52qq3e" path="res://Scripts/SakugaEngine/Resources/AnimationSettings.cs" id="1_fp67u"]
-[ext_resource type="Script" uid="uid://5qrsoteskjym" path="res://Scripts/SakugaEngine/Resources/HitboxState.cs" id="2_8r3io"]
-[ext_resource type="Script" uid="uid://bf60srwkccsm8" path="res://Scripts/SakugaEngine/Resources/FighterState.cs" id="3_81qbf"]
-[ext_resource type="Script" uid="uid://5you05l2efnd" path="res://Scripts/SakugaEngine/Resources/StatePhysics.cs" id="4_i031l"]
-[ext_resource type="Script" uid="uid://bia88bspuvxd" path="res://Scripts/SakugaEngine/Resources/StateTransitionSettings.cs" id="5_hhlyw"]
+[ext_resource type="Script" uid="uid://b8vqwkv52qq3e" path="res://Scripts/SakugaEngine/Resources/AnimationSettings.cs" id="1_xafws"]
+[ext_resource type="Script" uid="uid://5qrsoteskjym" path="res://Scripts/SakugaEngine/Resources/HitboxState.cs" id="2_0lv4w"]
+[ext_resource type="Script" uid="uid://bf60srwkccsm8" path="res://Scripts/SakugaEngine/Resources/FighterState.cs" id="3_rfoqf"]
+[ext_resource type="Script" uid="uid://5you05l2efnd" path="res://Scripts/SakugaEngine/Resources/StatePhysics.cs" id="4_l2blj"]
+[ext_resource type="Script" uid="uid://bia88bspuvxd" path="res://Scripts/SakugaEngine/Resources/StateTransitionSettings.cs" id="5_kuxte"]
 
 [sub_resource type="Resource" id="Resource_k7wc6"]
-script = ExtResource("1_fp67u")
-SourceAnimation = "MarshKen_SHeavy"
+script = ExtResource("1_xafws")
+SourceAnimation = "Z_HVY_attack_stand"
 metadata/_custom_type_script = "uid://b8vqwkv52qq3e"
 
 [sub_resource type="Resource" id="Resource_vijpp"]
-script = ExtResource("2_8r3io")
+script = ExtResource("2_0lv4w")
 metadata/_custom_type_script = "uid://5qrsoteskjym"
 
 [sub_resource type="Resource" id="Resource_fn3ag"]
-script = ExtResource("2_8r3io")
+script = ExtResource("2_0lv4w")
 animationStage = 1
 Frame = 14
 HitboxIndex = 4
 metadata/_custom_type_script = "uid://5qrsoteskjym"
 
 [sub_resource type="Resource" id="Resource_4rc1j"]
-script = ExtResource("2_8r3io")
+script = ExtResource("2_0lv4w")
 animationStage = 2
 Frame = 18
 metadata/_custom_type_script = "uid://5qrsoteskjym"
 
 [sub_resource type="Resource" id="Resource_dgu7n"]
-script = ExtResource("4_i031l")
+script = ExtResource("4_l2blj")
 UseLateralSpeed = true
 UseVerticalSpeed = true
 metadata/_custom_type_script = "uid://5you05l2efnd"
 
 [sub_resource type="Resource" id="Resource_or73q"]
-script = ExtResource("5_hhlyw")
+script = ExtResource("5_kuxte")
 StateIndex = 0
 Condition = 1
 metadata/_custom_type_script = "uid://bia88bspuvxd"
 
 [resource]
-script = ExtResource("3_81qbf")
+script = ExtResource("3_rfoqf")
 StateName = "5C"
 Type = 2
-Duration = 60
+Duration = 59
 stateProperties = null
 statePhysics = Array[Object]([SubResource("Resource_dgu7n")])
 hitboxStates = Array[Object]([SubResource("Resource_vijpp"), SubResource("Resource_fn3ag"), SubResource("Resource_4rc1j")])

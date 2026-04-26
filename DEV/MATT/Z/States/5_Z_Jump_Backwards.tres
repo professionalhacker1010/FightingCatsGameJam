@@ -1,0 +1,49 @@
+[gd_resource type="Resource" script_class="FighterState" format=3 uid="uid://djr4ljc7hgomg"]
+
+[ext_resource type="Script" uid="uid://b8vqwkv52qq3e" path="res://Scripts/SakugaEngine/Resources/AnimationSettings.cs" id="1_l3ci2"]
+[ext_resource type="Script" uid="uid://bf60srwkccsm8" path="res://Scripts/SakugaEngine/Resources/FighterState.cs" id="2_8lvfs"]
+[ext_resource type="Script" uid="uid://5you05l2efnd" path="res://Scripts/SakugaEngine/Resources/StatePhysics.cs" id="3_3cslu"]
+[ext_resource type="Script" uid="uid://bia88bspuvxd" path="res://Scripts/SakugaEngine/Resources/StateTransitionSettings.cs" id="4_04x1w"]
+
+[sub_resource type="Resource" id="Resource_613vu"]
+script = ExtResource("1_l3ci2")
+SourceAnimation = "Z_jump_all"
+metadata/_custom_type_script = "uid://b8vqwkv52qq3e"
+
+[sub_resource type="Resource" id="Resource_fl67k"]
+script = ExtResource("3_3cslu")
+UseLateralSpeed = true
+UseVerticalSpeed = true
+UseGravity = true
+
+[sub_resource type="Resource" id="Resource_nbfu2"]
+script = ExtResource("3_3cslu")
+Frame = 4
+UseLateralSpeed = true
+LateralSpeed = -17000
+UseVerticalSpeed = true
+VerticalSpeed = 65000
+UseGravity = true
+
+[sub_resource type="Resource" id="Resource_n8v6y"]
+script = ExtResource("3_3cslu")
+Frame = 5
+UseGravity = true
+Gravity = 200000
+
+[sub_resource type="Resource" id="Resource_gult3"]
+script = ExtResource("4_04x1w")
+StateIndex = 6
+Condition = 1
+
+[resource]
+script = ExtResource("2_8lvfs")
+Type = 1
+Duration = 77
+stateProperties = null
+statePhysics = Array[Object]([SubResource("Resource_fl67k"), SubResource("Resource_nbfu2"), SubResource("Resource_n8v6y")])
+hitboxStates = null
+animationEvents = null
+throwPivot = null
+stateTransitions = Array[Object]([SubResource("Resource_gult3")])
+animationSettings = Array[Object]([SubResource("Resource_613vu")])
