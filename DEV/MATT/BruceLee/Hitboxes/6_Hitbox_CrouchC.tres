@@ -5,8 +5,8 @@
 
 [sub_resource type="Resource" id="Resource_xfs7u"]
 script = ExtResource("1_4rqsx")
-Center = Vector2i(5600, 8000)
-Size = Vector2i(2000, 2000)
+Center = Vector2i(9000, 2200)
+Size = Vector2i(4200, 3500)
 HitboxType = 1
 HitType = 1
 BaseDamage = 500
