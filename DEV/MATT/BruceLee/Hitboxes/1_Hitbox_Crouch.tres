@@ -5,8 +5,8 @@
 
 [sub_resource type="Resource" id="Resource_cfbwf"]
 script = ExtResource("1_cfbwf")
-Center = Vector2i(0, 5800)
-Size = Vector2i(5000, 6000)
+Center = Vector2i(1000, 4000)
+Size = Vector2i(6500, 8400)
 AirBlockKnockbackGravity = 300000
 SelfPushbackForce = 0
 SelfPushbackDuration = 0

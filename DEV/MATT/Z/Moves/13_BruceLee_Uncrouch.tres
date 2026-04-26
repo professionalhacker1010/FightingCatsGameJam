@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="MoveSettings" format=3 uid="uid://4pc8tbv2c2p7"]
+
+[ext_resource type="Resource" uid="uid://cjtxv3hfn8vc4" path="res://Fighters/Shared/Inputs/8_Input_]2[.tres" id="1_6ryyv"]
+[ext_resource type="Script" uid="uid://gk1rkw667o4n" path="res://Scripts/SakugaEngine/Resources/MoveSettings.cs" id="2_1d7j8"]
+
+[resource]
+script = ExtResource("2_1d7j8")
+MoveName = "Uncrouch"
+Inputs = ExtResource("1_6ryyv")
+SideChange = 1
+MoveEnd = 1
+IsSequenceFromStates = PackedInt32Array(12)
+CanCancelTo = null
+ExtraVariablesRequirement = null
+ExtraVariablesChange = null
+CanBeOverrided = true
+CanOverrideToSelf = true
+PriorityBuffer = true
+IgnoreSamePriority = false
+UseOnGround = true

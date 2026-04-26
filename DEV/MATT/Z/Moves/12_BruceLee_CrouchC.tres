@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="MoveSettings" format=3 uid="uid://bin3xlreijy24"]
+
+[ext_resource type="Resource" uid="uid://bvohv35hx8p5g" path="res://Fighters/Shared/Inputs/17_Input_2C.tres" id="1_18f2x"]
+[ext_resource type="Script" uid="uid://gk1rkw667o4n" path="res://Scripts/SakugaEngine/Resources/MoveSettings.cs" id="2_vtqke"]
+
+[resource]
+script = ExtResource("2_vtqke")
+MoveName = "Crouch C"
+MoveState = 14
+Inputs = ExtResource("1_18f2x")
+SideChange = 1
+Priority = 5
+MoveEndState = 12
+CanCancelTo = null
+ExtraVariablesRequirement = null
+ExtraVariablesChange = null
+CanBeOverrided = true
+IgnoreSamePriority = false
+AcceptNullStates = true
+AcceptCombatStates = true
+UseOnGround = true

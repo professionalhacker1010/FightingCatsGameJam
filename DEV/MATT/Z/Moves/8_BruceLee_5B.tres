@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="MoveSettings" format=3 uid="uid://cler4q72ba2w6"]
+
+[ext_resource type="Resource" uid="uid://bdy2tcfv6ov1v" path="res://Fighters/Shared/Inputs/12_Input_5B.tres" id="1_bplde"]
+[ext_resource type="Script" uid="uid://gk1rkw667o4n" path="res://Scripts/SakugaEngine/Resources/MoveSettings.cs" id="2_peuv5"]
+
+[resource]
+script = ExtResource("2_peuv5")
+MoveName = "5B"
+MoveState = 10
+Inputs = ExtResource("1_bplde")
+Priority = 5
+MoveEnd = 1
+CanCancelTo = null
+ExtraVariablesRequirement = null
+ExtraVariablesChange = null
+CanBeOverrided = true
+IgnoreSamePriority = false
+AcceptNullStates = true
+AcceptCombatStates = true
+UseOnGround = true

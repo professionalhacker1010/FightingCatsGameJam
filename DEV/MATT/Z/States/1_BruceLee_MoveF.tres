@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="FighterState" format=3 uid="uid://bq64bt2m53xeu"]
+
+[ext_resource type="Script" uid="uid://b8vqwkv52qq3e" path="res://Scripts/SakugaEngine/Resources/AnimationSettings.cs" id="1_yr52e"]
+[ext_resource type="Script" uid="uid://bf60srwkccsm8" path="res://Scripts/SakugaEngine/Resources/FighterState.cs" id="2_ow3gf"]
+[ext_resource type="Script" uid="uid://5you05l2efnd" path="res://Scripts/SakugaEngine/Resources/StatePhysics.cs" id="3_g2wyh"]
+
+[sub_resource type="Resource" id="Resource_nk0xd"]
+script = ExtResource("1_yr52e")
+SourceAnimation = "MarshWlkFWD"
+metadata/_custom_type_script = "uid://b8vqwkv52qq3e"
+
+[sub_resource type="Resource" id="Resource_knhp4"]
+script = ExtResource("3_g2wyh")
+UseLateralSpeed = true
+LateralSpeed = 10000
+UseVerticalSpeed = true
+
+[resource]
+script = ExtResource("2_ow3gf")
+Type = 1
+Duration = 60
+Loop = true
+LoopFrames = Vector2i(0, 60)
+stateProperties = null
+statePhysics = Array[Object]([SubResource("Resource_knhp4")])
+hitboxStates = null
+animationEvents = null
+throwPivot = null
+stateTransitions = null
+animationSettings = Array[Object]([SubResource("Resource_nk0xd")])

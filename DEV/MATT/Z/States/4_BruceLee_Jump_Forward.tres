@@ -1,0 +1,49 @@
+[gd_resource type="Resource" script_class="FighterState" format=3 uid="uid://xbrg3j8oyp6n"]
+
+[ext_resource type="Script" uid="uid://b8vqwkv52qq3e" path="res://Scripts/SakugaEngine/Resources/AnimationSettings.cs" id="1_rdwei"]
+[ext_resource type="Script" uid="uid://bf60srwkccsm8" path="res://Scripts/SakugaEngine/Resources/FighterState.cs" id="2_bt62x"]
+[ext_resource type="Script" uid="uid://5you05l2efnd" path="res://Scripts/SakugaEngine/Resources/StatePhysics.cs" id="3_pp0i3"]
+[ext_resource type="Script" uid="uid://bia88bspuvxd" path="res://Scripts/SakugaEngine/Resources/StateTransitionSettings.cs" id="4_yxa64"]
+
+[sub_resource type="Resource" id="Resource_4kg6n"]
+script = ExtResource("1_rdwei")
+SourceAnimation = "MarshalJumpFull"
+metadata/_custom_type_script = "uid://b8vqwkv52qq3e"
+
+[sub_resource type="Resource" id="Resource_aim2h"]
+script = ExtResource("3_pp0i3")
+UseLateralSpeed = true
+UseVerticalSpeed = true
+UseGravity = true
+
+[sub_resource type="Resource" id="Resource_83x1k"]
+script = ExtResource("3_pp0i3")
+Frame = 4
+UseLateralSpeed = true
+LateralSpeed = 22000
+UseVerticalSpeed = true
+VerticalSpeed = 50500
+UseGravity = true
+
+[sub_resource type="Resource" id="Resource_8eh53"]
+script = ExtResource("3_pp0i3")
+Frame = 9
+UseGravity = true
+Gravity = 200000
+
+[sub_resource type="Resource" id="Resource_tgva5"]
+script = ExtResource("4_yxa64")
+StateIndex = 6
+Condition = 1
+
+[resource]
+script = ExtResource("2_bt62x")
+Type = 1
+Duration = 60
+stateProperties = null
+statePhysics = Array[Object]([SubResource("Resource_aim2h"), SubResource("Resource_83x1k"), SubResource("Resource_8eh53")])
+hitboxStates = null
+animationEvents = null
+throwPivot = null
+stateTransitions = Array[Object]([SubResource("Resource_tgva5")])
+animationSettings = Array[Object]([SubResource("Resource_4kg6n")])

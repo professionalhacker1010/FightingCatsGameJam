@@ -1,0 +1,68 @@
+[gd_resource type="Resource" script_class="MoveSettings" format=3 uid="uid://b2c88i7f2b3dl"]
+
+[ext_resource type="Script" uid="uid://dpgs1fcn5u351" path="res://Scripts/SakugaEngine/Resources/MoveCancelSettings.cs" id="1_lukyn"]
+[ext_resource type="Resource" uid="uid://ykyxja0283a" path="res://Fighters/Shared/Inputs/8_Input_2.tres" id="2_garwu"]
+[ext_resource type="Script" uid="uid://gk1rkw667o4n" path="res://Scripts/SakugaEngine/Resources/MoveSettings.cs" id="3_kvds6"]
+
+[sub_resource type="Resource" id="Resource_cpbnt"]
+script = ExtResource("1_lukyn")
+MoveIndex = 4
+Conditions = 6
+FrameThreshold = Vector2i(0, 999)
+metadata/_custom_type_script = "uid://dpgs1fcn5u351"
+
+[sub_resource type="Resource" id="Resource_gac08"]
+script = ExtResource("1_lukyn")
+MoveIndex = 5
+Conditions = 6
+FrameThreshold = Vector2i(0, 999)
+metadata/_custom_type_script = "uid://dpgs1fcn5u351"
+
+[sub_resource type="Resource" id="Resource_khioq"]
+script = ExtResource("1_lukyn")
+MoveIndex = 6
+Conditions = 6
+FrameThreshold = Vector2i(0, 999)
+metadata/_custom_type_script = "uid://dpgs1fcn5u351"
+
+[sub_resource type="Resource" id="Resource_atndp"]
+script = ExtResource("1_lukyn")
+MoveIndex = 19
+Conditions = 6
+FrameThreshold = Vector2i(0, 999)
+metadata/_custom_type_script = "uid://dpgs1fcn5u351"
+
+[sub_resource type="Resource" id="Resource_63y75"]
+script = ExtResource("1_lukyn")
+MoveIndex = 21
+Conditions = 6
+FrameThreshold = Vector2i(0, 999)
+metadata/_custom_type_script = "uid://dpgs1fcn5u351"
+
+[sub_resource type="Resource" id="Resource_4hq8l"]
+script = ExtResource("1_lukyn")
+MoveIndex = 33
+Conditions = 6
+FrameThreshold = Vector2i(0, 999)
+metadata/_custom_type_script = "uid://dpgs1fcn5u351"
+
+[sub_resource type="Resource" id="Resource_4skw2"]
+script = ExtResource("1_lukyn")
+MoveIndex = 34
+Conditions = 6
+FrameThreshold = Vector2i(0, 999)
+metadata/_custom_type_script = "uid://dpgs1fcn5u351"
+
+[resource]
+script = ExtResource("3_kvds6")
+MoveName = "Crouch"
+MoveState = 12
+Inputs = ExtResource("2_garwu")
+MoveEnd = 1
+MoveEndState = 0
+CanCancelTo = Array[Object]([SubResource("Resource_cpbnt"), SubResource("Resource_gac08"), SubResource("Resource_khioq"), SubResource("Resource_atndp"), SubResource("Resource_63y75"), SubResource("Resource_4hq8l"), SubResource("Resource_4skw2")])
+ExtraVariablesRequirement = null
+ExtraVariablesChange = null
+CanBeOverrided = true
+IgnoreSamePriority = false
+UseOnGround = true

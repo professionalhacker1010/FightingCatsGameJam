@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="HitboxSettings" format=3 uid="uid://2ami0wwlkuxw"]
+
+[ext_resource type="Script" uid="uid://c0y740kryylcs" path="res://Scripts/SakugaEngine/Resources/HitboxElement.cs" id="1_qwqng"]
+[ext_resource type="Script" uid="uid://dxuwyhds75mce" path="res://Scripts/SakugaEngine/Resources/HitboxSettings.cs" id="2_ptnxg"]
+
+[sub_resource type="Resource" id="Resource_xfs7u"]
+script = ExtResource("1_qwqng")
+Center = Vector2i(5600, 5200)
+Size = Vector2i(2000, 1800)
+HitboxType = 1
+HitType = 1
+BaseDamage = 500
+metadata/_custom_type_script = "uid://c0y740kryylcs"
+
+[resource]
+script = ExtResource("2_ptnxg")
+Hitboxes = [SubResource("Resource_xfs7u")]
+metadata/_custom_type_script = "uid://dxuwyhds75mce"

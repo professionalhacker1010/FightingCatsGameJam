@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="FighterProfile" format=3 uid="uid://oylji5lm3wmu"]
+
+[ext_resource type="Texture2D" uid="uid://bu1t8ocx5drp5" path="res://DEV/MATT/Z/Imported Assets/Z_selectportrait_WIP.png" id="2_l643s"]
+[ext_resource type="Script" uid="uid://c5w04j5my3h8p" path="res://Scripts/SakugaEngine/Resources/FighterProfile.cs" id="3_iktnv"]
+
+[resource]
+script = ExtResource("3_iktnv")
+FighterName = "Dummy Fighter"
+ShortName = "Dummy"
+Render = ExtResource("2_l643s")
+Portrait = ExtResource("2_l643s")

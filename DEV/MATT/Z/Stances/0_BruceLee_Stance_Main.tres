@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="FighterStance" format=3 uid="uid://dgb23y4du7ou0"]
+
+[ext_resource type="Resource" uid="uid://cttyx6lfp7lc5" path="res://DEV/MATT/Z/Moves/0_BruceLee_MoveF.tres" id="1_8tw7y"]
+[ext_resource type="Resource" uid="uid://bny8naufb1j0o" path="res://DEV/MATT/Z/Moves/1_BruceLee_MoveB.tres" id="2_bnllj"]
+[ext_resource type="Resource" uid="uid://kbolupoedkbt" path="res://DEV/MATT/Z/Moves/2_BruceLee_JumpN.tres" id="3_3rr2m"]
+[ext_resource type="Resource" uid="uid://ded3nitnasga" path="res://DEV/MATT/Z/Moves/3_BruceLee_JumpF.tres" id="4_0qnwo"]
+[ext_resource type="Resource" uid="uid://byihob8uv3jy2" path="res://DEV/MATT/Z/Moves/4_BruceLee_JumpB.tres" id="5_mip78"]
+[ext_resource type="Resource" uid="uid://b47rigimc0q0f" path="res://DEV/MATT/Z/Moves/5_BruceLee_AirDashF.tres" id="6_qbiki"]
+[ext_resource type="Resource" uid="uid://ceb846e14qtyh" path="res://DEV/MATT/Z/Moves/6_BruceLee_AirDashB.tres" id="7_o6eep"]
+[ext_resource type="Resource" uid="uid://b317rx2j1i4ia" path="res://DEV/MATT/Z/Moves/7_BruceLee_5A.tres" id="8_wmbmc"]
+[ext_resource type="Resource" uid="uid://cler4q72ba2w6" path="res://DEV/MATT/Z/Moves/8_BruceLee_5B.tres" id="9_qjgru"]
+[ext_resource type="Resource" uid="uid://c2tmqgmut7i5m" path="res://DEV/MATT/Z/Moves/9_BruceLee_5C.tres" id="10_snsib"]
+[ext_resource type="Resource" uid="uid://b2c88i7f2b3dl" path="res://DEV/MATT/Z/Moves/10_BruceLee_Crouch.tres" id="11_bhu6p"]
+[ext_resource type="Resource" uid="uid://c5wt8ci11ib13" path="res://DEV/MATT/Z/Moves/11_BruceLee_CrouchA.tres" id="12_desba"]
+[ext_resource type="Resource" uid="uid://bin3xlreijy24" path="res://DEV/MATT/Z/Moves/12_BruceLee_CrouchC.tres" id="13_aaxjs"]
+[ext_resource type="Resource" uid="uid://4pc8tbv2c2p7" path="res://DEV/MATT/Z/Moves/13_BruceLee_Uncrouch.tres" id="14_1pciv"]
+[ext_resource type="Script" uid="uid://00dse0vp38l7" path="res://Scripts/SakugaEngine/Resources/FighterStance.cs" id="15_8wg7n"]
+
+[resource]
+script = ExtResource("15_8wg7n")
+Moves = Array[Object]([ExtResource("1_8tw7y"), ExtResource("2_bnllj"), ExtResource("3_3rr2m"), ExtResource("4_0qnwo"), ExtResource("5_mip78"), ExtResource("6_qbiki"), ExtResource("7_o6eep"), ExtResource("8_wmbmc"), ExtResource("9_qjgru"), ExtResource("10_snsib"), ExtResource("11_bhu6p"), ExtResource("12_desba"), ExtResource("13_aaxjs"), ExtResource("14_1pciv")])
+HitReactions = PackedInt32Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)

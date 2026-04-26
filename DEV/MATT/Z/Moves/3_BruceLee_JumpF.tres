@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="MoveSettings" format=3 uid="uid://ded3nitnasga"]
+
+[ext_resource type="Resource" uid="uid://diuo4je084p3s" path="res://Fighters/Shared/Inputs/4_Input_9.tres" id="1_352s7"]
+[ext_resource type="Script" uid="uid://gk1rkw667o4n" path="res://Scripts/SakugaEngine/Resources/MoveSettings.cs" id="2_lij0f"]
+
+[resource]
+script = ExtResource("2_lij0f")
+MoveName = "Forward Jump"
+MoveState = 4
+Inputs = ExtResource("1_352s7")
+Priority = 1
+CanCancelTo = null
+ExtraVariablesRequirement = null
+ExtraVariablesChange = null
+CanBeOverrided = true
+InterruptCornerPushback = true
+UseOnGround = true

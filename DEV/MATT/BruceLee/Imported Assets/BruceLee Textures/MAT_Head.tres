@@ -1,0 +1,16 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://324flh1hrqg8"]
+
+[ext_resource type="Texture2D" uid="uid://bc58mfx81p2al" path="res://DEV/MATT/BruceLee/Imported Assets/BruceLee Textures/MAT_Head_Base_Color.png" id="1_gqgxh"]
+
+[resource]
+resource_name = "MAT_Head"
+cull_mode = 2
+albedo_texture = ExtResource("1_gqgxh")
+roughness = 0.5
+metadata/extras = {
+"mmd_material": {},
+"yp": {
+"active_ypaint_node": "",
+"expand_content": 0.0
+}
+}

@@ -6,7 +6,7 @@
 [sub_resource type="Resource" id="Resource_tm223"]
 script = ExtResource("1_poscf")
 Center = Vector2i(0, 5800)
-Size = Vector2i(4800, 12000)
+Size = Vector2i(2800, 12000)
 AirBlockKnockbackGravity = 300000
 SelfPushbackForce = 0
 SelfPushbackDuration = 0

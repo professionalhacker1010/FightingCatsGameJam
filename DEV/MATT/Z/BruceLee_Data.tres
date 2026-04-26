@@ -1,0 +1,42 @@
+[gd_resource type="Resource" script_class="DataContainer" format=3 uid="uid://cj602283q7840"]
+
+[ext_resource type="Resource" uid="uid://cb78munr8r5od" path="res://DEV/MATT/Z/Hitboxes/0_Hitbox_Basic.tres" id="1_pd7o2"]
+[ext_resource type="Resource" uid="uid://biynkotgtbmxt" path="res://DEV/MATT/Z/Hitboxes/1_Hitbox_Crouch.tres" id="2_nwdhs"]
+[ext_resource type="Resource" uid="uid://boabqaft581yr" path="res://DEV/MATT/Z/Hitboxes/2_Hitbox_5A.tres" id="3_q2vuy"]
+[ext_resource type="Resource" uid="uid://dh27rm53rdu0r" path="res://DEV/MATT/Z/Hitboxes/3_Hitbox_5B.tres" id="4_js60j"]
+[ext_resource type="Resource" uid="uid://l11vr7pjxr3p" path="res://DEV/MATT/Z/Hitboxes/4_Hitbox_5C.tres" id="5_w2inw"]
+[ext_resource type="Resource" uid="uid://2ami0wwlkuxw" path="res://DEV/MATT/Z/Hitboxes/5_Hitbox_CrouchA.tres" id="6_4pcvl"]
+[ext_resource type="Resource" uid="uid://pux8pkkkg8gl" path="res://DEV/MATT/Z/Hitboxes/6_Hitbox_CrouchC.tres" id="7_vsudw"]
+[ext_resource type="Resource" uid="uid://oylji5lm3wmu" path="res://DEV/MATT/Z/BruceLee_Profile.tres" id="8_a045q"]
+[ext_resource type="Resource" uid="uid://dgb23y4du7ou0" path="res://DEV/MATT/Z/Stances/0_BruceLee_Stance_Main.tres" id="9_tpt2a"]
+[ext_resource type="Resource" uid="uid://cdkqxvdnb6kcq" path="res://DEV/MATT/Z/States/0_BruceLee_Neutral.tres" id="10_qi2lo"]
+[ext_resource type="Resource" uid="uid://bq64bt2m53xeu" path="res://DEV/MATT/Z/States/1_BruceLee_MoveF.tres" id="11_radev"]
+[ext_resource type="Resource" uid="uid://bbttfhcw68ial" path="res://DEV/MATT/Z/States/2_BruceLee_MoveB.tres" id="12_7511d"]
+[ext_resource type="Resource" uid="uid://dbyrsckbm2qc2" path="res://DEV/MATT/Z/States/3_BruceLee_Jump_Neutral.tres" id="13_rct5e"]
+[ext_resource type="Resource" uid="uid://xbrg3j8oyp6n" path="res://DEV/MATT/Z/States/4_BruceLee_Jump_Forward.tres" id="14_wufkd"]
+[ext_resource type="Resource" uid="uid://djr4ljc7hgomg" path="res://DEV/MATT/Z/States/5_BruceLee_Jump_Backwards.tres" id="15_nj7kr"]
+[ext_resource type="Resource" uid="uid://dr33drp05tubn" path="res://DEV/MATT/Z/States/6_BruceLee_Falling.tres" id="16_hv0tf"]
+[ext_resource type="Resource" uid="uid://twbw7t6umewf" path="res://DEV/MATT/Z/States/7_BruceLee_AirDash_Forward.tres" id="17_3ub36"]
+[ext_resource type="Resource" uid="uid://c1ph83rl8ytpr" path="res://DEV/MATT/Z/States/8_BruceLee_AirDash_Backwards.tres" id="18_vxq76"]
+[ext_resource type="Resource" uid="uid://d4ebvv1u606h3" path="res://DEV/MATT/Z/States/9_BruceLee_5A.tres" id="19_t81cn"]
+[ext_resource type="Resource" uid="uid://kkon1gg78n6r" path="res://DEV/MATT/Z/States/10_BruceLee_5B.tres" id="20_w67ow"]
+[ext_resource type="Resource" uid="uid://itqm0e8pub0i" path="res://DEV/MATT/Z/States/11_BruceLee_5C.tres" id="21_4m167"]
+[ext_resource type="Resource" uid="uid://dybn8fuhm45oe" path="res://DEV/MATT/Z/States/12_BruceLee_Crouch.tres" id="22_p8d18"]
+[ext_resource type="Resource" uid="uid://b2nlllnrfy17j" path="res://DEV/MATT/Z/States/13_BruceLee_CrouchA.tres" id="23_hcqgl"]
+[ext_resource type="Resource" uid="uid://dgpos6slrwn1j" path="res://DEV/MATT/Z/States/14_BruceLee_CrouchC.tres" id="24_ir4y2"]
+[ext_resource type="Resource" uid="uid://djc5ckda567tp" path="res://DEV/MATT/Z/States/15_BruceLee_CrouchExit.tres" id="25_b1n1m"]
+[ext_resource type="Resource" uid="uid://bjb0r08vg56tg" path="res://DEV/MATT/Z/States/16_BruceLee_CrouchEnter.tres" id="26_blq68"]
+[ext_resource type="Resource" uid="uid://cjarssd2mjnuw" path="res://Fighters/Kaede/AI/Kaede_AIData.tres" id="27_oyy6v"]
+[ext_resource type="Script" uid="uid://bsbjg1nuyall1" path="res://Scripts/SakugaEngine/Resources/DataContainer.cs" id="28_k4hyb"]
+
+[resource]
+script = ExtResource("28_k4hyb")
+Profile = ExtResource("8_a045q")
+Hitboxes = Array[Object]([ExtResource("1_pd7o2"), ExtResource("2_nwdhs"), ExtResource("3_q2vuy"), ExtResource("4_js60j"), ExtResource("5_w2inw"), ExtResource("6_4pcvl"), ExtResource("7_vsudw")])
+States = Array[Object]([ExtResource("10_qi2lo"), ExtResource("11_radev"), ExtResource("12_7511d"), ExtResource("13_rct5e"), ExtResource("14_wufkd"), ExtResource("15_nj7kr"), ExtResource("16_hv0tf"), ExtResource("17_3ub36"), ExtResource("18_vxq76"), ExtResource("19_t81cn"), ExtResource("20_w67ow"), ExtResource("21_4m167"), ExtResource("22_p8d18"), ExtResource("23_hcqgl"), ExtResource("24_ir4y2"), ExtResource("25_b1n1m"), ExtResource("26_blq68")])
+Stances = Array[Object]([ExtResource("9_tpt2a")])
+_aiData = ExtResource("27_oyy6v")
+Intros = Array[Object]([])
+Outros = null
+VictoryPoses = null
+metadata/_custom_type_script = "uid://bsbjg1nuyall1"

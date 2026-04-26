@@ -1,0 +1,38 @@
+[gd_resource type="Resource" script_class="FighterState" format=3 uid="uid://bjb0r08vg56tg"]
+
+[ext_resource type="Script" uid="uid://b8vqwkv52qq3e" path="res://Scripts/SakugaEngine/Resources/AnimationSettings.cs" id="1_rw5po"]
+[ext_resource type="Script" uid="uid://bf60srwkccsm8" path="res://Scripts/SakugaEngine/Resources/FighterState.cs" id="2_ltvno"]
+[ext_resource type="Script" uid="uid://5you05l2efnd" path="res://Scripts/SakugaEngine/Resources/StatePhysics.cs" id="3_cxalh"]
+[ext_resource type="Script" uid="uid://bia88bspuvxd" path="res://Scripts/SakugaEngine/Resources/StateTransitionSettings.cs" id="4_kas3f"]
+
+[sub_resource type="Resource" id="Resource_0udpj"]
+script = ExtResource("1_rw5po")
+SourceAnimation = "MarshalJumpFall"
+metadata/_custom_type_script = "uid://b8vqwkv52qq3e"
+
+[sub_resource type="Resource" id="Resource_qx3pm"]
+script = ExtResource("3_cxalh")
+UseLateralSpeed = true
+UseVerticalSpeed = true
+metadata/_custom_type_script = "uid://5you05l2efnd"
+
+[sub_resource type="Resource" id="Resource_ouxfx"]
+script = ExtResource("4_kas3f")
+StateIndex = 12
+Condition = 1
+metadata/_custom_type_script = "uid://bia88bspuvxd"
+
+[resource]
+script = ExtResource("2_ltvno")
+StateName = "Crouch Enter"
+Type = 1
+Duration = 24
+LoopFrames = Vector2i(0, 24)
+stateProperties = null
+statePhysics = Array[Object]([SubResource("Resource_qx3pm")])
+hitboxStates = null
+animationEvents = null
+throwPivot = null
+stateTransitions = Array[Object]([SubResource("Resource_ouxfx")])
+animationSettings = Array[Object]([SubResource("Resource_0udpj")])
+metadata/_custom_type_script = "uid://bf60srwkccsm8"
