@@ -1,11 +1,17 @@
 [gd_resource type="Resource" script_class="DataContainer" format=3 uid="uid://cj602283q7840"]
 
-[ext_resource type="Script" uid="uid://c0y740kryylcs" path="res://Scripts/SakugaEngine/Resources/HitboxElement.cs" id="1_i1022"]
-[ext_resource type="Script" uid="uid://dxuwyhds75mce" path="res://Scripts/SakugaEngine/Resources/HitboxSettings.cs" id="2_k3piw"]
+[ext_resource type="Resource" uid="uid://cb78munr8r5od" path="res://DEV/MATT/Z/Hitboxes/0_Hitbox_Basic.tres" id="1_7jikk"]
+[ext_resource type="Resource" uid="uid://biynkotgtbmxt" path="res://DEV/MATT/Z/Hitboxes/1_Hitbox_Crouch.tres" id="2_awgpa"]
+[ext_resource type="Resource" uid="uid://boabqaft581yr" path="res://DEV/MATT/Z/Hitboxes/2_Hitbox_5A.tres" id="3_utxcr"]
 [ext_resource type="Resource" uid="uid://cttyx6lfp7lc5" path="res://DEV/MATT/Z/Moves/0_Z_MoveF.tres" id="4_ifub7"]
+[ext_resource type="Resource" uid="uid://dh27rm53rdu0r" path="res://DEV/MATT/Z/Hitboxes/3_Hitbox_5B.tres" id="4_pirs3"]
 [ext_resource type="Resource" uid="uid://bny8naufb1j0o" path="res://DEV/MATT/Z/Moves/1_Z_MoveB.tres" id="5_0tm02"]
+[ext_resource type="Resource" uid="uid://l11vr7pjxr3p" path="res://DEV/MATT/Z/Hitboxes/4_Hitbox_5C.tres" id="5_7am5m"]
 [ext_resource type="Resource" uid="uid://kbolupoedkbt" path="res://DEV/MATT/Z/Moves/2_Z_JumpN.tres" id="6_arahw"]
+[ext_resource type="Resource" uid="uid://2ami0wwlkuxw" path="res://DEV/MATT/Z/Hitboxes/5_Hitbox_CrouchA.tres" id="6_h4w7d"]
 [ext_resource type="Resource" uid="uid://ded3nitnasga" path="res://DEV/MATT/Z/Moves/3_Z_JumpF.tres" id="7_8evij"]
+[ext_resource type="Resource" uid="uid://bsvnvphkg83mn" path="res://DEV/MATT/Z/Hitboxes/6_Hitbox_CrouchC.tres" id="7_fdpof"]
+[ext_resource type="Resource" uid="uid://pux8pkkkg8gl" path="res://DEV/MATT/Z/Hitboxes/7_Hitbox_CrouchB.tres" id="8_4r0cp"]
 [ext_resource type="Resource" uid="uid://oylji5lm3wmu" path="res://DEV/MATT/Z/Z_Profile.tres" id="8_a045q"]
 [ext_resource type="Resource" uid="uid://byihob8uv3jy2" path="res://DEV/MATT/Z/Moves/4_Z_JumpB.tres" id="8_bwdt5"]
 [ext_resource type="Resource" uid="uid://b47rigimc0q0f" path="res://DEV/MATT/Z/Moves/5_Z_AirDashF.tres" id="9_u0tik"]
@@ -40,112 +46,6 @@
 [ext_resource type="Resource" uid="uid://bjb0r08vg56tg" path="res://DEV/MATT/Z/States/16_Z_CrouchEnter.tres" id="35_grws2"]
 [ext_resource type="Resource" uid="uid://dvb28q411i5vy" path="res://DEV/MATT/Z/States/17_Z_CrouchB.tres" id="37_8evij"]
 
-[sub_resource type="Resource" id="Resource_tm223"]
-script = ExtResource("1_i1022")
-Center = Vector2i(0, 5800)
-Size = Vector2i(2800, 12000)
-AirBlockKnockbackGravity = 300000
-SelfPushbackForce = 0
-SelfPushbackDuration = 0
-BounceXIntensity = 0
-BounceXState = 0
-BounceYIntensity = 0
-BounceYState = 0
-
-[sub_resource type="Resource" id="Resource_utxcr"]
-script = ExtResource("2_k3piw")
-PushboxCenter = Vector2i(0, 6000)
-PushboxSize = Vector2i(6000, 12000)
-Hitboxes = [SubResource("Resource_tm223")]
-
-[sub_resource type="Resource" id="Resource_cfbwf"]
-script = ExtResource("1_i1022")
-Center = Vector2i(1000, 4000)
-Size = Vector2i(6500, 8400)
-AirBlockKnockbackGravity = 300000
-SelfPushbackForce = 0
-SelfPushbackDuration = 0
-BounceXIntensity = 0
-BounceXState = 0
-BounceYIntensity = 0
-BounceYState = 0
-
-[sub_resource type="Resource" id="Resource_pirs3"]
-script = ExtResource("2_k3piw")
-PushboxCenter = Vector2i(0, 6000)
-PushboxSize = Vector2i(6000, 12000)
-Hitboxes = [SubResource("Resource_cfbwf")]
-
-[sub_resource type="Resource" id="Resource_xfs7u"]
-script = ExtResource("1_i1022")
-Center = Vector2i(5400, 7800)
-Size = Vector2i(2000, 2000)
-HitboxType = 1
-HitType = 2
-BaseDamage = 500
-metadata/_custom_type_script = "uid://c0y740kryylcs"
-
-[sub_resource type="Resource" id="Resource_7am5m"]
-script = ExtResource("2_k3piw")
-Hitboxes = [SubResource("Resource_xfs7u")]
-metadata/_custom_type_script = "uid://dxuwyhds75mce"
-
-[sub_resource type="Resource" id="Resource_h4w7d"]
-script = ExtResource("1_i1022")
-Center = Vector2i(8500, 5000)
-Size = Vector2i(2800, 2000)
-HitboxType = 1
-HitType = 2
-BaseDamage = 500
-metadata/_custom_type_script = "uid://c0y740kryylcs"
-
-[sub_resource type="Resource" id="Resource_fdpof"]
-script = ExtResource("2_k3piw")
-Hitboxes = [SubResource("Resource_h4w7d")]
-metadata/_custom_type_script = "uid://dxuwyhds75mce"
-
-[sub_resource type="Resource" id="Resource_4r0cp"]
-script = ExtResource("1_i1022")
-Center = Vector2i(8000, 6000)
-Size = Vector2i(3000, 2000)
-HitboxType = 1
-HitType = 1
-BaseDamage = 800
-metadata/_custom_type_script = "uid://c0y740kryylcs"
-
-[sub_resource type="Resource" id="Resource_grws2"]
-script = ExtResource("2_k3piw")
-Hitboxes = [SubResource("Resource_4r0cp")]
-metadata/_custom_type_script = "uid://dxuwyhds75mce"
-
-[sub_resource type="Resource" id="Resource_2lg1v"]
-script = ExtResource("1_i1022")
-Center = Vector2i(5600, 5200)
-Size = Vector2i(2000, 1800)
-HitboxType = 1
-HitType = 1
-BaseDamage = 500
-metadata/_custom_type_script = "uid://c0y740kryylcs"
-
-[sub_resource type="Resource" id="Resource_0iiq5"]
-script = ExtResource("2_k3piw")
-Hitboxes = [SubResource("Resource_2lg1v")]
-metadata/_custom_type_script = "uid://dxuwyhds75mce"
-
-[sub_resource type="Resource" id="Resource_k0j3o"]
-script = ExtResource("1_i1022")
-Center = Vector2i(9000, 2200)
-Size = Vector2i(4200, 3500)
-HitboxType = 1
-HitType = 1
-BaseDamage = 500
-metadata/_custom_type_script = "uid://c0y740kryylcs"
-
-[sub_resource type="Resource" id="Resource_2lwym"]
-script = ExtResource("2_k3piw")
-Hitboxes = [SubResource("Resource_k0j3o")]
-metadata/_custom_type_script = "uid://dxuwyhds75mce"
-
 [sub_resource type="Resource" id="Resource_pvbgx"]
 script = ExtResource("18_bwdt5")
 Moves = Array[Object]([ExtResource("4_ifub7"), ExtResource("5_0tm02"), ExtResource("6_arahw"), ExtResource("7_8evij"), ExtResource("8_bwdt5"), ExtResource("9_u0tik"), ExtResource("10_d40rw"), ExtResource("11_7kysr"), ExtResource("12_7jikk"), ExtResource("13_awgpa"), ExtResource("14_utxcr"), ExtResource("15_pirs3"), ExtResource("16_7am5m"), ExtResource("17_h4w7d"), ExtResource("18_arahw")])
@@ -154,7 +54,7 @@ HitReactions = PackedInt32Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
 [resource]
 script = ExtResource("28_k4hyb")
 Profile = ExtResource("8_a045q")
-Hitboxes = Array[Object]([SubResource("Resource_utxcr"), SubResource("Resource_pirs3"), SubResource("Resource_7am5m"), SubResource("Resource_fdpof"), SubResource("Resource_grws2"), SubResource("Resource_0iiq5"), SubResource("Resource_2lwym")])
+Hitboxes = Array[Object]([ExtResource("1_7jikk"), ExtResource("2_awgpa"), ExtResource("3_utxcr"), ExtResource("4_pirs3"), ExtResource("5_7am5m"), ExtResource("6_h4w7d"), ExtResource("7_fdpof"), ExtResource("8_4r0cp")])
 States = Array[Object]([ExtResource("19_ifub7"), ExtResource("20_0tm02"), ExtResource("21_arahw"), ExtResource("22_8evij"), ExtResource("23_bwdt5"), ExtResource("24_u0tik"), ExtResource("25_d40rw"), ExtResource("26_7kysr"), ExtResource("27_7jikk"), ExtResource("28_awgpa"), ExtResource("29_utxcr"), ExtResource("30_pirs3"), ExtResource("31_7am5m"), ExtResource("32_h4w7d"), ExtResource("33_fdpof"), ExtResource("34_4r0cp"), ExtResource("35_grws2"), ExtResource("37_8evij")])
 Stances = Array[Object]([SubResource("Resource_pvbgx")])
 _aiData = ExtResource("27_oyy6v")

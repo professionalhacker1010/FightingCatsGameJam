@@ -18,14 +18,14 @@ metadata/_custom_type_script = "uid://5qrsoteskjym"
 [sub_resource type="Resource" id="Resource_o8lkc"]
 script = ExtResource("2_j5id4")
 animationStage = 1
-Frame = 16
-HitboxIndex = 6
+Frame = 14
+HitboxIndex = 7
 metadata/_custom_type_script = "uid://5qrsoteskjym"
 
 [sub_resource type="Resource" id="Resource_h0rf4"]
 script = ExtResource("2_j5id4")
 animationStage = 2
-Frame = 20
+Frame = 16
 metadata/_custom_type_script = "uid://5qrsoteskjym"
 
 [sub_resource type="Resource" id="Resource_la6o6"]
