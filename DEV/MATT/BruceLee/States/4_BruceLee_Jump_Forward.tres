@@ -18,16 +18,16 @@ UseGravity = true
 
 [sub_resource type="Resource" id="Resource_83x1k"]
 script = ExtResource("2_a2qu4")
-Frame = 4
+Frame = 8
 UseLateralSpeed = true
-LateralSpeed = 22000
+LateralSpeed = 23000
 UseVerticalSpeed = true
-VerticalSpeed = 50500
+VerticalSpeed = 70000
 UseGravity = true
 
 [sub_resource type="Resource" id="Resource_8eh53"]
 script = ExtResource("2_a2qu4")
-Frame = 9
+Frame = 10
 UseGravity = true
 Gravity = 200000
 
