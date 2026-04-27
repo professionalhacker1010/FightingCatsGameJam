@@ -1,7 +1,8 @@
 [gd_scene format=3 uid="uid://dk22qgaiwdb7k"]
 
 [ext_resource type="Texture2D" uid="uid://6ctweo6uvot8" path="res://icon.svg" id="1_mopnr"]
-[ext_resource type="Texture2D" uid="uid://bdvauhfkl3qvn" path="res://DEV/MATT/BruceLee/Imported Assets/Fighting_Game_Stage_Card_Shop_v2_with_set_items.png" id="2_nv2gc"]
+[ext_resource type="Texture2D" uid="uid://denqn4tufh0mv" path="res://Stages/AFF_Legacy/Textures/Fighting_Game_Stage_Card_Shop_v2_with_set_items.png" id="2_ei8rf"]
+[ext_resource type="PackedScene" uid="uid://dt1x8jjxdjeow" path="res://DEV/MATT/BruceLee/Instances/Dummy_BruceLee_Default.tscn" id="3_dj23f"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_cc1ax"]
 
@@ -25,7 +26,7 @@ size = Vector3(20, 0.2, 2)
 [sub_resource type="PlaneMesh" id="PlaneMesh_ei8rf"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dj23f"]
-albedo_texture = ExtResource("2_nv2gc")
+albedo_texture = ExtResource("2_ei8rf")
 
 [node name="Sakuga_Stage_Basic" type="Node3D" unique_id=1780144471]
 
@@ -42,6 +43,10 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.1, 0)
 mesh = SubResource("BoxMesh_ql5gv")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=682536857]
-transform = Transform3D(10.443766, 0, 0, 0, -0.007855878, 3.7557654, 0, -0.8183591, -0.036053654, 0.05346185, 3.3889832, 1.575602)
+transform = Transform3D(3.639999, -7.2704354e-09, -0.0013861778, -0.0030785159, 3.0112783e-09, -1.6389995, 4.340013e-07, 0.061, 8.074435e-08, -0.06443013, 1.6032085, -1.0089157)
 mesh = SubResource("PlaneMesh_ei8rf")
 surface_material_override/0 = SubResource("StandardMaterial3D_dj23f")
+
+[node name="BrucLee_Fighter" parent="." unique_id=2103503203 instance=ExtResource("3_dj23f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.8361354, 0, 0.3023026)
+visible = false

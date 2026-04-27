@@ -7,7 +7,7 @@
 [ext_resource type="Resource" uid="uid://dti25wauqaxwy" path="res://Fighters/Kaede/Kaede_Profile.tres" id="7_w00mg"]
 [ext_resource type="Resource" uid="uid://dfma5gqaldi8g" path="res://Fighters/Dummy/Dummy_Profile.tres" id="8_m8lbm"]
 [ext_resource type="PackedScene" uid="uid://mn2wng8jaovw" path="res://Fighters/Kaede/Instances/Fighter_Kaede_Alt.tscn" id="8_yn7sm"]
-[ext_resource type="Resource" uid="uid://oylji5lm3wmu" path="res://DEV/MATT/Z/Z_Profile.tres" id="10_51ydv"]
+[ext_resource type="Resource" path="res://DEV/MATT/Z/Z_Profile.tres" id="10_51ydv"]
 [ext_resource type="PackedScene" uid="uid://dt1x8jjxdjeow" path="res://DEV/MATT/BruceLee/Instances/Dummy_BruceLee_Default.tscn" id="10_hd0eg"]
 [ext_resource type="PackedScene" uid="uid://dmtiolqwl34vt" path="res://DEV/MATT/Z/Instances/Dummy_Z_Default.tscn" id="10_w00mg"]
 [ext_resource type="Resource" uid="uid://b342djrefo0h8" path="res://DEV/MATT/BruceLee/BruceLee_Profile.tres" id="11_w00mg"]

@@ -3881,6 +3881,8 @@ metadata/extras = {
 [node name="GEO_Body_001" type="MeshInstance3D" parent="Mesh/Anims_BruceLee/root/Skeleton3D" unique_id=608877669]
 mesh = SubResource("ArrayMesh_sepbi")
 skin = SubResource("Skin_4184u")
+surface_material_override/0 = ExtResource("9_s23ox")
+surface_material_override/1 = ExtResource("7_4184u")
 metadata/extras = {
 "als": {},
 "yp_decal": {}
