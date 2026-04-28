@@ -10,7 +10,8 @@
 [ext_resource type="Resource" path="res://DEV/MATT/Z/Moves/2_Z_JumpN.tres" id="6_arahw"]
 [ext_resource type="Resource" uid="uid://2ami0wwlkuxw" path="res://DEV/MATT/Z/Hitboxes/5_Hitbox_CrouchA.tres" id="6_h4w7d"]
 [ext_resource type="Resource" path="res://DEV/MATT/Z/Moves/3_Z_JumpF.tres" id="7_8evij"]
-[ext_resource type="Resource" uid="uid://pux8pkkkg8gl" path="res://DEV/MATT/Z/Hitboxes/6_Hitbox_CrouchC.tres" id="8_4r0cp"]
+[ext_resource type="Resource" uid="uid://bsvnvphkg83mn" path="res://DEV/MATT/Z/Hitboxes/6_Hitbox_CrouchC.tres" id="8_4r0cp"]
+[ext_resource type="Resource" path="res://DEV/MATT/Z/Hitboxes/7_Hitbox_CrouchB.tres" id="8_7jikk"]
 [ext_resource type="Resource" path="res://DEV/MATT/Z/Z_Profile.tres" id="8_a045q"]
 [ext_resource type="Resource" path="res://DEV/MATT/Z/Moves/4_Z_JumpB.tres" id="8_bwdt5"]
 [ext_resource type="Resource" path="res://DEV/MATT/Z/Moves/5_Z_AirDashF.tres" id="9_u0tik"]
@@ -53,7 +54,7 @@ HitReactions = PackedInt32Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
 [resource]
 script = ExtResource("28_k4hyb")
 Profile = ExtResource("8_a045q")
-Hitboxes = Array[Object]([ExtResource("1_7jikk"), ExtResource("2_awgpa"), ExtResource("3_utxcr"), ExtResource("4_pirs3"), ExtResource("5_7am5m"), ExtResource("6_h4w7d"), ExtResource("8_4r0cp"), ExtResource("8_4r0cp")])
+Hitboxes = Array[Object]([ExtResource("1_7jikk"), ExtResource("2_awgpa"), ExtResource("3_utxcr"), ExtResource("4_pirs3"), ExtResource("5_7am5m"), ExtResource("6_h4w7d"), ExtResource("8_4r0cp"), ExtResource("8_7jikk")])
 States = Array[Object]([ExtResource("19_ifub7"), ExtResource("20_0tm02"), ExtResource("21_arahw"), ExtResource("22_8evij"), ExtResource("23_bwdt5"), ExtResource("24_u0tik"), ExtResource("25_d40rw"), ExtResource("26_7kysr"), ExtResource("27_7jikk"), ExtResource("28_awgpa"), ExtResource("29_utxcr"), ExtResource("30_pirs3"), ExtResource("31_7am5m"), ExtResource("32_h4w7d"), ExtResource("33_fdpof"), ExtResource("34_4r0cp"), ExtResource("35_grws2"), ExtResource("37_8evij")])
 Stances = Array[Object]([SubResource("Resource_pvbgx")])
 _aiData = ExtResource("27_oyy6v")
