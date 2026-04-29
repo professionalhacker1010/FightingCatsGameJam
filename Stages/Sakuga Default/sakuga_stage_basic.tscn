@@ -43,7 +43,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.1, 0)
 mesh = SubResource("BoxMesh_ql5gv")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=682536857]
-transform = Transform3D(3.639999, -7.2704354e-09, -0.0013861778, -0.0030785159, 3.0112783e-09, -1.6389995, 4.340013e-07, 0.061, 8.074435e-08, -0.06443013, 1.6032085, -1.0089157)
+transform = Transform3D(4.999998, -1.00114415e-08, -0.0020561914, -0.0045672846, 4.4786637e-09, -2.250999, 5.961738e-07, 0.084, 1.197724e-07, 0.97185314, 1.7768681, -1.1867558)
 mesh = SubResource("PlaneMesh_ei8rf")
 surface_material_override/0 = SubResource("StandardMaterial3D_dj23f")
 
