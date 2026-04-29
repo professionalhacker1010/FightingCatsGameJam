@@ -11,7 +11,7 @@
 [ext_resource type="Resource" uid="uid://2ami0wwlkuxw" path="res://DEV/MATT/Z/Hitboxes/5_Hitbox_CrouchA.tres" id="6_h4w7d"]
 [ext_resource type="Resource" path="res://DEV/MATT/Z/Moves/3_Z_JumpF.tres" id="7_8evij"]
 [ext_resource type="Resource" uid="uid://bsvnvphkg83mn" path="res://DEV/MATT/Z/Hitboxes/6_Hitbox_CrouchC.tres" id="8_4r0cp"]
-[ext_resource type="Resource" path="res://DEV/MATT/Z/Hitboxes/7_Hitbox_CrouchB.tres" id="8_7jikk"]
+[ext_resource type="Resource" uid="uid://4j5nyj2l37x2" path="res://DEV/MATT/Z/Hitboxes/7_Hitbox_CrouchB.tres" id="8_7jikk"]
 [ext_resource type="Resource" path="res://DEV/MATT/Z/Z_Profile.tres" id="8_a045q"]
 [ext_resource type="Resource" path="res://DEV/MATT/Z/Moves/4_Z_JumpB.tres" id="8_bwdt5"]
 [ext_resource type="Resource" path="res://DEV/MATT/Z/Moves/5_Z_AirDashF.tres" id="9_u0tik"]
