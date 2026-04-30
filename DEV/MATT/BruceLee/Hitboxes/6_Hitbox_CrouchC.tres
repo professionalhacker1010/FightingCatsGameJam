@@ -9,7 +9,8 @@ Center = Vector2i(9000, 2200)
 Size = Vector2i(4200, 3500)
 HitboxType = 1
 HitType = 1
-BaseDamage = 500
+BaseDamage = 800
+ChipDamage = 600
 metadata/_custom_type_script = "uid://c0y740kryylcs"
 
 [resource]
