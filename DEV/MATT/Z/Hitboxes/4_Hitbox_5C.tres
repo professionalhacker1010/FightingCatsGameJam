@@ -3,9 +3,9 @@
 [ext_resource type="Script" uid="uid://c0y740kryylcs" path="res://Scripts/SakugaEngine/Resources/HitboxElement.cs" id="1_13p2y"]
 [ext_resource type="Script" uid="uid://dxuwyhds75mce" path="res://Scripts/SakugaEngine/Resources/HitboxSettings.cs" id="2_yefyv"]
 
-[sub_resource type="Resource" id="Resource_xfs7u"]
+[sub_resource type="Resource" id="Resource_13p2y"]
 script = ExtResource("1_13p2y")
-Center = Vector2i(9000, 7000)
+Center = Vector2i(8800, 4000)
 Size = Vector2i(3000, 3000)
 HitboxType = 1
 HitType = 1
@@ -14,5 +14,5 @@ metadata/_custom_type_script = "uid://c0y740kryylcs"
 
 [resource]
 script = ExtResource("2_yefyv")
-Hitboxes = [SubResource("Resource_xfs7u")]
+Hitboxes = [SubResource("Resource_13p2y")]
 metadata/_custom_type_script = "uid://dxuwyhds75mce"
