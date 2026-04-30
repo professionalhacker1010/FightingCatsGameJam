@@ -18,14 +18,14 @@ metadata/_custom_type_script = "uid://5qrsoteskjym"
 [sub_resource type="Resource" id="Resource_jnf3a"]
 script = ExtResource("2_24aof")
 animationStage = 1
-Frame = 9
+Frame = 6
 HitboxIndex = 2
 metadata/_custom_type_script = "uid://5qrsoteskjym"
 
 [sub_resource type="Resource" id="Resource_mgumk"]
 script = ExtResource("2_24aof")
 animationStage = 2
-Frame = 15
+Frame = 10
 metadata/_custom_type_script = "uid://5qrsoteskjym"
 
 [sub_resource type="Resource" id="Resource_u56o3"]
@@ -44,7 +44,7 @@ metadata/_custom_type_script = "uid://bia88bspuvxd"
 script = ExtResource("3_3tk2g")
 StateName = "5A Slight"
 Type = 2
-Duration = 20
+Duration = 16
 stateProperties = null
 statePhysics = Array[Object]([SubResource("Resource_u56o3")])
 hitboxStates = Array[Object]([SubResource("Resource_ac4aw"), SubResource("Resource_jnf3a"), SubResource("Resource_mgumk")])

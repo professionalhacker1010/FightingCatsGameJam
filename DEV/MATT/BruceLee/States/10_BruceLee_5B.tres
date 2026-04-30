@@ -18,14 +18,14 @@ metadata/_custom_type_script = "uid://5qrsoteskjym"
 [sub_resource type="Resource" id="Resource_h7r75"]
 script = ExtResource("2_visoj")
 animationStage = 1
-Frame = 12
+Frame = 6
 HitboxIndex = 3
 metadata/_custom_type_script = "uid://5qrsoteskjym"
 
 [sub_resource type="Resource" id="Resource_dux4w"]
 script = ExtResource("2_visoj")
 animationStage = 2
-Frame = 20
+Frame = 10
 metadata/_custom_type_script = "uid://5qrsoteskjym"
 
 [sub_resource type="Resource" id="Resource_ubpn1"]
@@ -44,7 +44,7 @@ metadata/_custom_type_script = "uid://bia88bspuvxd"
 script = ExtResource("2_84l6g")
 StateName = "5B"
 Type = 2
-Duration = 32
+Duration = 26
 stateProperties = null
 statePhysics = Array[Object]([SubResource("Resource_ubpn1")])
 hitboxStates = Array[Object]([SubResource("Resource_84l6g"), SubResource("Resource_h7r75"), SubResource("Resource_dux4w")])

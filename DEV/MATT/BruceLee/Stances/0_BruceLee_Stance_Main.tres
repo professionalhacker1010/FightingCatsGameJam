@@ -15,8 +15,9 @@
 [ext_resource type="Resource" uid="uid://buh0u5pwi5h8t" path="res://DEV/MATT/BruceLee/Moves/12_BruceLee_CrouchC.tres" id="13_rmf84"]
 [ext_resource type="Resource" uid="uid://dpeg50v4thfx3" path="res://DEV/MATT/BruceLee/Moves/13_BruceLee_Uncrouch.tres" id="14_28ssq"]
 [ext_resource type="Script" uid="uid://00dse0vp38l7" path="res://Scripts/SakugaEngine/Resources/FighterStance.cs" id="14_fnt5r"]
+[ext_resource type="Resource" uid="uid://swk6jmss86gd" path="res://DEV/MATT/BruceLee/Moves/14_BruceLee_CrouchB.tres" id="15_qb5hn"]
 
 [resource]
 script = ExtResource("14_fnt5r")
-Moves = Array[Object]([ExtResource("1_hiop8"), ExtResource("2_28ssq"), ExtResource("3_qb5hn"), ExtResource("4_wmnmo"), ExtResource("5_e358q"), ExtResource("6_3trsr"), ExtResource("7_gmoxq"), ExtResource("8_2mkwo"), ExtResource("9_q7ibd"), ExtResource("10_3xr56"), ExtResource("11_aoq07"), ExtResource("12_rgb5h"), ExtResource("13_rmf84"), ExtResource("14_28ssq")])
+Moves = Array[Object]([ExtResource("1_hiop8"), ExtResource("2_28ssq"), ExtResource("3_qb5hn"), ExtResource("4_wmnmo"), ExtResource("5_e358q"), ExtResource("6_3trsr"), ExtResource("7_gmoxq"), ExtResource("8_2mkwo"), ExtResource("9_q7ibd"), ExtResource("10_3xr56"), ExtResource("11_aoq07"), ExtResource("12_rgb5h"), ExtResource("13_rmf84"), ExtResource("14_28ssq"), ExtResource("15_qb5hn")])
 HitReactions = PackedInt32Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)

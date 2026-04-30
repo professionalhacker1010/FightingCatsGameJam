@@ -1,51 +1,51 @@
-[gd_resource type="Resource" script_class="FighterState" format=3 uid="uid://byxkmer2mlye0"]
+[gd_resource type="Resource" script_class="FighterState" format=3 uid="uid://7uw52h1yrgu7"]
 
-[ext_resource type="Script" uid="uid://b8vqwkv52qq3e" path="res://Scripts/SakugaEngine/Resources/AnimationSettings.cs" id="1_siyei"]
-[ext_resource type="Script" uid="uid://5qrsoteskjym" path="res://Scripts/SakugaEngine/Resources/HitboxState.cs" id="2_xjvkh"]
-[ext_resource type="Script" uid="uid://bf60srwkccsm8" path="res://Scripts/SakugaEngine/Resources/FighterState.cs" id="2_y1d0k"]
-[ext_resource type="Script" uid="uid://5you05l2efnd" path="res://Scripts/SakugaEngine/Resources/StatePhysics.cs" id="3_xjvkh"]
-[ext_resource type="Script" uid="uid://bia88bspuvxd" path="res://Scripts/SakugaEngine/Resources/StateTransitionSettings.cs" id="4_y1d0k"]
+[ext_resource type="Script" uid="uid://b8vqwkv52qq3e" path="res://Scripts/SakugaEngine/Resources/AnimationSettings.cs" id="1_25yen"]
+[ext_resource type="Script" uid="uid://5qrsoteskjym" path="res://Scripts/SakugaEngine/Resources/HitboxState.cs" id="2_5813v"]
+[ext_resource type="Script" uid="uid://bf60srwkccsm8" path="res://Scripts/SakugaEngine/Resources/FighterState.cs" id="3_7qv8y"]
+[ext_resource type="Script" uid="uid://5you05l2efnd" path="res://Scripts/SakugaEngine/Resources/StatePhysics.cs" id="4_x8yu5"]
+[ext_resource type="Script" uid="uid://bia88bspuvxd" path="res://Scripts/SakugaEngine/Resources/StateTransitionSettings.cs" id="5_t6tnf"]
 
 [sub_resource type="Resource" id="Resource_csck0"]
-script = ExtResource("1_siyei")
-SourceAnimation = "MarshCrouchHeavy"
+script = ExtResource("1_25yen")
+SourceAnimation = "MarshCrouchMedium"
 metadata/_custom_type_script = "uid://b8vqwkv52qq3e"
 
 [sub_resource type="Resource" id="Resource_ixq85"]
-script = ExtResource("2_xjvkh")
+script = ExtResource("2_5813v")
 metadata/_custom_type_script = "uid://5qrsoteskjym"
 
 [sub_resource type="Resource" id="Resource_o8lkc"]
-script = ExtResource("2_xjvkh")
+script = ExtResource("2_5813v")
 animationStage = 1
-Frame = 12
+Frame = 6
 HitboxIndex = 6
 metadata/_custom_type_script = "uid://5qrsoteskjym"
 
 [sub_resource type="Resource" id="Resource_h0rf4"]
-script = ExtResource("2_xjvkh")
+script = ExtResource("2_5813v")
 animationStage = 2
-Frame = 14
+Frame = 10
 metadata/_custom_type_script = "uid://5qrsoteskjym"
 
 [sub_resource type="Resource" id="Resource_la6o6"]
-script = ExtResource("3_xjvkh")
+script = ExtResource("4_x8yu5")
 UseLateralSpeed = true
 UseVerticalSpeed = true
 metadata/_custom_type_script = "uid://5you05l2efnd"
 
 [sub_resource type="Resource" id="Resource_xjvkh"]
-script = ExtResource("4_y1d0k")
+script = ExtResource("5_t6tnf")
 StateIndex = 12
 Condition = 1
 metadata/_custom_type_script = "uid://bia88bspuvxd"
 
 [resource]
-script = ExtResource("2_y1d0k")
-StateName = "CrouchC"
+script = ExtResource("3_7qv8y")
+StateName = "CrouchB"
 BaseStance = 1
 Type = 2
-Duration = 48
+Duration = 22
 stateProperties = null
 statePhysics = Array[Object]([SubResource("Resource_la6o6")])
 hitboxStates = Array[Object]([SubResource("Resource_ixq85"), SubResource("Resource_o8lkc"), SubResource("Resource_h0rf4")])

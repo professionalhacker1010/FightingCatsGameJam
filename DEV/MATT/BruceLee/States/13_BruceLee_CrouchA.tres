@@ -18,14 +18,14 @@ metadata/_custom_type_script = "uid://5qrsoteskjym"
 [sub_resource type="Resource" id="Resource_kx1go"]
 script = ExtResource("2_yym31")
 animationStage = 1
-Frame = 14
+Frame = 6
 HitboxIndex = 5
 metadata/_custom_type_script = "uid://5qrsoteskjym"
 
 [sub_resource type="Resource" id="Resource_s415u"]
 script = ExtResource("2_yym31")
 animationStage = 2
-Frame = 18
+Frame = 10
 metadata/_custom_type_script = "uid://5qrsoteskjym"
 
 [sub_resource type="Resource" id="Resource_byvca"]
@@ -45,7 +45,7 @@ script = ExtResource("1_c4418")
 StateName = "CrouchA"
 BaseStance = 1
 Type = 2
-Duration = 32
+Duration = 16
 stateProperties = null
 statePhysics = Array[Object]([SubResource("Resource_byvca")])
 hitboxStates = Array[Object]([SubResource("Resource_4gkmy"), SubResource("Resource_kx1go"), SubResource("Resource_s415u")])

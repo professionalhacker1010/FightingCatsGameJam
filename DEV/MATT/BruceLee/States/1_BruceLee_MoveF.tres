@@ -18,9 +18,9 @@ UseVerticalSpeed = true
 [resource]
 script = ExtResource("2_vh8pi")
 Type = 1
-Duration = 60
+Duration = 32
 Loop = true
-LoopFrames = Vector2i(0, 60)
+LoopFrames = Vector2i(0, 32)
 stateProperties = null
 statePhysics = Array[Object]([SubResource("Resource_knhp4")])
 hitboxStates = null
