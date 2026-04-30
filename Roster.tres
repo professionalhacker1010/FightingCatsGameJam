@@ -5,13 +5,11 @@
 [ext_resource type="Script" uid="uid://dclkxgxahdy5l" path="res://Scripts/SakugaEngine/Resources/FighterElement.cs" id="3_m8lbm"]
 [ext_resource type="PackedScene" uid="uid://b1ggpw8ltpaid" path="res://Fighters/Kaede/Instances/Fighter_Kaede.tscn" id="6_hd0eg"]
 [ext_resource type="Resource" uid="uid://dti25wauqaxwy" path="res://Fighters/Kaede/Kaede_Profile.tres" id="7_w00mg"]
-[ext_resource type="Resource" uid="uid://dfma5gqaldi8g" path="res://Fighters/Dummy/Dummy_Profile.tres" id="8_m8lbm"]
 [ext_resource type="PackedScene" uid="uid://mn2wng8jaovw" path="res://Fighters/Kaede/Instances/Fighter_Kaede_Alt.tscn" id="8_yn7sm"]
-[ext_resource type="Resource" path="res://DEV/MATT/Z/Z_Profile.tres" id="10_51ydv"]
+[ext_resource type="Resource" uid="uid://dke46y7l4enka" path="res://DEV/MATT/Z/Z_Profile.tres" id="10_51ydv"]
 [ext_resource type="PackedScene" uid="uid://dt1x8jjxdjeow" path="res://DEV/MATT/BruceLee/Instances/Dummy_BruceLee_Default.tscn" id="10_hd0eg"]
 [ext_resource type="PackedScene" uid="uid://dmtiolqwl34vt" path="res://DEV/MATT/Z/Instances/Dummy_Z_Default.tscn" id="10_w00mg"]
 [ext_resource type="Resource" uid="uid://b342djrefo0h8" path="res://DEV/MATT/BruceLee/BruceLee_Profile.tres" id="11_w00mg"]
-[ext_resource type="PackedScene" uid="uid://3reeyb4tcc1i" path="res://Fighters/Dummy/Instances/Dummy_Fighter_Default.tscn" id="12_f2d14"]
 
 [sub_resource type="Resource" id="Resource_q6gag"]
 script = ExtResource("2_w00mg")
@@ -29,18 +27,6 @@ metadata/_custom_type_script = "uid://dg21wno6w513c"
 script = ExtResource("3_m8lbm")
 Profile = ExtResource("7_w00mg")
 ColorPalettes = Array[Object]([SubResource("Resource_q6gag"), SubResource("Resource_yn7sm")])
-metadata/_custom_type_script = "uid://dclkxgxahdy5l"
-
-[sub_resource type="Resource" id="Resource_51ydv"]
-script = ExtResource("2_w00mg")
-PaletteName = "Default"
-Instance = ExtResource("12_f2d14")
-metadata/_custom_type_script = "uid://dg21wno6w513c"
-
-[sub_resource type="Resource" id="Resource_mamio"]
-script = ExtResource("3_m8lbm")
-Profile = ExtResource("8_m8lbm")
-ColorPalettes = Array[Object]([SubResource("Resource_51ydv")])
 metadata/_custom_type_script = "uid://dclkxgxahdy5l"
 
 [sub_resource type="Resource" id="Resource_f2d14"]
@@ -68,4 +54,4 @@ metadata/_custom_type_script = "uid://dclkxgxahdy5l"
 
 [resource]
 script = ExtResource("1_x0sfh")
-elements = Array[Object]([SubResource("Resource_ug4c5"), SubResource("Resource_mamio"), SubResource("Resource_df8sf"), SubResource("Resource_hd0eg")])
+elements = Array[Object]([SubResource("Resource_ug4c5"), SubResource("Resource_df8sf"), SubResource("Resource_hd0eg")])
