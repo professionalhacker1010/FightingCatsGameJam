@@ -20668,15 +20668,15 @@ Animator = NodePath("Mesh")
 StateMachine = NodePath("StateMachine")
 Tracker = NodePath("CombatTracker")
 Sounds = []
-Graphics = [NodePath("")]
+Graphics = [NodePath("Mesh/Anims_Z/root")]
 VFXList = ExtResource("3_vvsnv")
 SFXList = ExtResource("4_0qn3u")
 VoiceLines = ExtResource("5_xn15k")
 
 [node name="Mesh" type="Node3D" parent="." unique_id=894168557 node_paths=PackedStringArray("players", "OffsetNode")]
 script = ExtResource("6_kosdp")
-players = [NodePath("")]
-OffsetNode = NodePath("")
+players = [NodePath("Anims_Z/AnimationPlayer")]
+OffsetNode = NodePath("Anims_Z/root")
 
 [node name="Anims_Z" type="Node3D" parent="Mesh" unique_id=1922317103]
 
