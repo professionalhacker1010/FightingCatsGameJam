@@ -6,7 +6,7 @@
 
 [resource]
 script = ExtResource("3_3ekcx")
-FighterName = "Dummy Fighter"
-ShortName = "Dummy"
+FighterName = "Ken Lau"
+ShortName = "Ken"
 Render = ExtResource("2_ih1re")
 Portrait = ExtResource("1_ke8r4")
