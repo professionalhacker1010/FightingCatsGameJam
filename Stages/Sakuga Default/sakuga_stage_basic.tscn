@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://dk22qgaiwdb7k"]
 
 [ext_resource type="Texture2D" uid="uid://6ctweo6uvot8" path="res://icon.svg" id="1_mopnr"]
-[ext_resource type="Texture2D" uid="uid://denqn4tufh0mv" path="res://Stages/AFF_Legacy/Textures/Fighting_Game_Stage_Card_Shop_v2_with_set_items.png" id="2_ei8rf"]
+[ext_resource type="Texture2D" uid="uid://ccxitpmyk6fge" path="res://Stages/Sakuga Default/Fighting_Game_Stage_Card_Shop_v3 extended.png" id="2_ei8rf"]
 [ext_resource type="PackedScene" uid="uid://dt1x8jjxdjeow" path="res://DEV/MATT/BruceLee/Instances/Dummy_BruceLee_Default.tscn" id="3_dj23f"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_cc1ax"]
@@ -42,8 +42,8 @@ environment = SubResource("Environment_iltph")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.1, 0)
 mesh = SubResource("BoxMesh_ql5gv")
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=682536857]
-transform = Transform3D(4.999998, -1.00114415e-08, -0.0020561914, -0.0045672846, 4.4786637e-09, -2.250999, 5.961738e-07, 0.084, 1.197724e-07, 0.97185314, 1.7768681, -1.1867558)
+[node name="BG" type="MeshInstance3D" parent="." unique_id=682536857]
+transform = Transform3D(3.8999977, 5.1298143e-06, -0.0018855282, -0.0042579966, -4.199697e-12, -1.7269989, -0.0002273439, 0.088, 1.0983133e-07, 0.025486112, 1.676089, -0.9496424)
 mesh = SubResource("PlaneMesh_ei8rf")
 surface_material_override/0 = SubResource("StandardMaterial3D_dj23f")
 

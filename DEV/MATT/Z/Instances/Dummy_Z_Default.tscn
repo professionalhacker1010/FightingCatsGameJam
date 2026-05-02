@@ -21502,6 +21502,7 @@ script = ExtResource("22_4ey01")
 [node name="PhysicsBody" type="Node" parent="." unique_id=16409716]
 script = ExtResource("23_318hi")
 StayOnBounds = true
+IgnoreWalls = true
 
 [node name="InputManager" type="Node" parent="." unique_id=1071687742]
 script = ExtResource("24_n7saf")
