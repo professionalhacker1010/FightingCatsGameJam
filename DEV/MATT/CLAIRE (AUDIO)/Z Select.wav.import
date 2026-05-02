@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://jykfnsakiwkk"
+path="res://.godot/imported/Z Select.wav-cc340dc63986602e7c8dc0e5f7586260.sample"
+
+[deps]
+
+source_file="res://DEV/MATT/CLAIRE (AUDIO)/Z Select.wav"
+dest_files=["res://.godot/imported/Z Select.wav-cc340dc63986602e7c8dc0e5f7586260.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

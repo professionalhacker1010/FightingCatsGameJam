@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dtkvusr80s2wh"
+path="res://.godot/imported/Time Out.wav-d34c3c1e2c6fa56800e81a5584122434.sample"
+
+[deps]
+
+source_file="res://DEV/MATT/CLAIRE (AUDIO)/Time Out.wav"
+dest_files=["res://.godot/imported/Time Out.wav-d34c3c1e2c6fa56800e81a5584122434.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2
