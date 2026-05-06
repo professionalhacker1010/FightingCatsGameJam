@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="MoveSettings" format=3 uid="uid://d2qakg3164os8"]
+
+[ext_resource type="Resource" uid="uid://epgc3rcnssa7" path="res://Fighters/Shared/Inputs/27_Input_5E.tres" id="1_f2cpk"]
+[ext_resource type="Script" uid="uid://gk1rkw667o4n" path="res://Scripts/SakugaEngine/Resources/MoveSettings.cs" id="2_eof2m"]
+
+[resource]
+script = ExtResource("2_eof2m")
+MoveName = "Standing Kick Light"
+MoveState = 18
+Inputs = ExtResource("1_f2cpk")
+Priority = 5
+MoveEnd = 1
+CanCancelTo = null
+ExtraVariablesRequirement = null
+ExtraVariablesChange = null
+CanBeOverrided = true
+IgnoreSamePriority = false
+AcceptNullStates = true
+AcceptCombatStates = true
+UseOnGround = true
+metadata/_custom_type_script = "uid://gk1rkw667o4n"
