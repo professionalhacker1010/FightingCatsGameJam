@@ -21,7 +21,10 @@
 [ext_resource type="Resource" path="res://DEV/MATT/Z/Moves/7_Z_5A.tres" id="11_7kysr"]
 [ext_resource type="Resource" uid="uid://b26rx1lthj0w0" path="res://DEV/MATT/Z/Hitboxes/10_Hitbox_5G.tres" id="11_k0j3o"]
 [ext_resource type="Resource" path="res://DEV/MATT/Z/Moves/8_Z_5B.tres" id="12_7jikk"]
+[ext_resource type="Resource" uid="uid://to7oua8idwga" path="res://DEV/MATT/Z/Hitboxes/11_Hitbox_CrouchE.tres" id="12_3403k"]
 [ext_resource type="Resource" path="res://DEV/MATT/Z/Moves/9_Z_5C.tres" id="13_awgpa"]
+[ext_resource type="Resource" uid="uid://b73aow25lp6wi" path="res://DEV/MATT/Z/Hitboxes/12_Hitbox_CrouchF.tres" id="13_j0lmv"]
+[ext_resource type="Resource" uid="uid://h32n71kwgfb4" path="res://DEV/MATT/Z/Hitboxes/13_Hitbox_CrouchG.tres" id="14_pqfac"]
 [ext_resource type="Resource" uid="uid://b2c88i7f2b3dl" path="res://DEV/MATT/Z/Moves/10_Z_Crouch.tres" id="14_utxcr"]
 [ext_resource type="Resource" path="res://DEV/MATT/Z/Moves/11_Z_CrouchA.tres" id="15_pirs3"]
 [ext_resource type="Resource" path="res://DEV/MATT/Z/Moves/12_Z_CrouchC.tres" id="16_7am5m"]
@@ -49,22 +52,28 @@
 [ext_resource type="Resource" uid="uid://b2nlllnrfy17j" path="res://DEV/MATT/Z/States/13_Z_CrouchA.tres" id="32_h4w7d"]
 [ext_resource type="Resource" uid="uid://dgpos6slrwn1j" path="res://DEV/MATT/Z/States/14_Z_CrouchC.tres" id="33_fdpof"]
 [ext_resource type="Resource" uid="uid://djc5ckda567tp" path="res://DEV/MATT/Z/States/15_Z_CrouchExit.tres" id="34_4r0cp"]
+[ext_resource type="Resource" uid="uid://c813jdu547n06" path="res://DEV/MATT/Z/Moves/18_Z_CrouchE.tres" id="34_bsfq0"]
 [ext_resource type="Resource" uid="uid://bjb0r08vg56tg" path="res://DEV/MATT/Z/States/16_Z_CrouchEnter.tres" id="35_grws2"]
+[ext_resource type="Resource" uid="uid://cu0ega6tojh4e" path="res://DEV/MATT/Z/Moves/19_Z_CrouchF.tres" id="35_yprfd"]
+[ext_resource type="Resource" uid="uid://8nkrl0dlcaa3" path="res://DEV/MATT/Z/Moves/20_Z_CrouchG.tres" id="36_fl67k"]
 [ext_resource type="Resource" uid="uid://dvb28q411i5vy" path="res://DEV/MATT/Z/States/17_Z_CrouchB.tres" id="37_8evij"]
 [ext_resource type="Resource" uid="uid://b2yy0mculflpr" path="res://DEV/MATT/Z/States/18_Z_5E.tres" id="50_cd3nj"]
 [ext_resource type="Resource" uid="uid://5vunndwvoeca" path="res://DEV/MATT/Z/States/19_Z_5F.tres" id="51_1m0al"]
 [ext_resource type="Resource" uid="uid://bvi53j0neevt0" path="res://DEV/MATT/Z/States/20_Z_5G.tres" id="52_8il7s"]
+[ext_resource type="Resource" uid="uid://d38qovxxfwkts" path="res://DEV/MATT/Z/States/21_Z_CrouchE.tres" id="59_n8v6y"]
+[ext_resource type="Resource" uid="uid://crvucdtdtt12c" path="res://DEV/MATT/Z/States/22_Z_CrouchF.tres" id="60_5wc6o"]
+[ext_resource type="Resource" uid="uid://cusxroqwu5wdq" path="res://DEV/MATT/Z/States/23_Z_CrouchG.tres" id="61_d6eyt"]
 
 [sub_resource type="Resource" id="Resource_pvbgx"]
 script = ExtResource("18_bwdt5")
-Moves = Array[Object]([ExtResource("4_ifub7"), ExtResource("5_0tm02"), ExtResource("6_arahw"), ExtResource("7_8evij"), ExtResource("8_bwdt5"), ExtResource("9_u0tik"), ExtResource("10_d40rw"), ExtResource("11_7kysr"), ExtResource("12_7jikk"), ExtResource("13_awgpa"), ExtResource("14_utxcr"), ExtResource("15_pirs3"), ExtResource("16_7am5m"), ExtResource("17_h4w7d"), ExtResource("18_arahw"), ExtResource("28_2lwym"), ExtResource("29_pvbgx"), ExtResource("30_6by00")])
+Moves = Array[Object]([ExtResource("4_ifub7"), ExtResource("5_0tm02"), ExtResource("6_arahw"), ExtResource("7_8evij"), ExtResource("8_bwdt5"), ExtResource("9_u0tik"), ExtResource("10_d40rw"), ExtResource("11_7kysr"), ExtResource("12_7jikk"), ExtResource("13_awgpa"), ExtResource("14_utxcr"), ExtResource("15_pirs3"), ExtResource("16_7am5m"), ExtResource("17_h4w7d"), ExtResource("18_arahw"), ExtResource("28_2lwym"), ExtResource("29_pvbgx"), ExtResource("30_6by00"), ExtResource("34_bsfq0"), ExtResource("35_yprfd"), ExtResource("36_fl67k")])
 HitReactions = PackedInt32Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
 
 [resource]
 script = ExtResource("28_k4hyb")
 Profile = ExtResource("8_a045q")
-Hitboxes = Array[Object]([ExtResource("1_7jikk"), ExtResource("2_awgpa"), ExtResource("3_utxcr"), ExtResource("4_pirs3"), ExtResource("5_7am5m"), ExtResource("6_h4w7d"), ExtResource("8_4r0cp"), ExtResource("8_7jikk"), ExtResource("9_2lg1v"), ExtResource("10_0iiq5"), ExtResource("11_k0j3o")])
-States = Array[Object]([ExtResource("19_ifub7"), ExtResource("20_0tm02"), ExtResource("21_arahw"), ExtResource("22_8evij"), ExtResource("23_bwdt5"), ExtResource("24_u0tik"), ExtResource("25_d40rw"), ExtResource("26_7kysr"), ExtResource("27_7jikk"), ExtResource("28_awgpa"), ExtResource("29_utxcr"), ExtResource("30_pirs3"), ExtResource("31_7am5m"), ExtResource("32_h4w7d"), ExtResource("33_fdpof"), ExtResource("34_4r0cp"), ExtResource("35_grws2"), ExtResource("37_8evij"), ExtResource("50_cd3nj"), ExtResource("51_1m0al"), ExtResource("52_8il7s")])
+Hitboxes = Array[Object]([ExtResource("1_7jikk"), ExtResource("2_awgpa"), ExtResource("3_utxcr"), ExtResource("4_pirs3"), ExtResource("5_7am5m"), ExtResource("6_h4w7d"), ExtResource("8_4r0cp"), ExtResource("8_7jikk"), ExtResource("9_2lg1v"), ExtResource("10_0iiq5"), ExtResource("11_k0j3o"), ExtResource("12_3403k"), ExtResource("13_j0lmv"), ExtResource("14_pqfac")])
+States = Array[Object]([ExtResource("19_ifub7"), ExtResource("20_0tm02"), ExtResource("21_arahw"), ExtResource("22_8evij"), ExtResource("23_bwdt5"), ExtResource("24_u0tik"), ExtResource("25_d40rw"), ExtResource("26_7kysr"), ExtResource("27_7jikk"), ExtResource("28_awgpa"), ExtResource("29_utxcr"), ExtResource("30_pirs3"), ExtResource("31_7am5m"), ExtResource("32_h4w7d"), ExtResource("33_fdpof"), ExtResource("34_4r0cp"), ExtResource("35_grws2"), ExtResource("37_8evij"), ExtResource("50_cd3nj"), ExtResource("51_1m0al"), ExtResource("52_8il7s"), ExtResource("59_n8v6y"), ExtResource("60_5wc6o"), ExtResource("61_d6eyt")])
 Stances = Array[Object]([SubResource("Resource_pvbgx")])
 _aiData = ExtResource("27_oyy6v")
 Intros = Array[Object]([])
