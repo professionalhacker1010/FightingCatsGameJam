@@ -5,7 +5,7 @@
 
 [resource]
 script = ExtResource("2_soyns")
-MoveName = "CrouchA"
+MoveName = "CrouchG"
 MoveState = 23
 Inputs = ExtResource("1_7qk18")
 Priority = 5
