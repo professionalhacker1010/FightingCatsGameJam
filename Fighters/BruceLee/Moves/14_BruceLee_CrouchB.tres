@@ -5,7 +5,7 @@
 
 [resource]
 script = ExtResource("2_mtgfl")
-MoveName = "Crouch C"
+MoveName = "Crouch B"
 MoveState = 17
 Inputs = ExtResource("1_k8brm")
 SideChange = 1
