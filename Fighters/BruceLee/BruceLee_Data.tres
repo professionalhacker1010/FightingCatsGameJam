@@ -1,0 +1,86 @@
+[gd_resource type="Resource" script_class="DataContainer" format=3 uid="uid://21hrykuk541g"]
+
+[ext_resource type="Resource" uid="uid://el3505sgffn2" path="res://Fighters/BruceLee/Hitboxes/0_Hitbox_Basic.tres" id="1_stdsy"]
+[ext_resource type="Script" uid="uid://bsbjg1nuyall1" path="res://Scripts/SakugaEngine/Resources/DataContainer.cs" id="1_tj211"]
+[ext_resource type="Resource" uid="uid://b342djrefo0h8" path="res://Fighters/BruceLee/BruceLee_Profile.tres" id="1_tls86"]
+[ext_resource type="Resource" uid="uid://du8fgcmcasiv1" path="res://Fighters/BruceLee/Hitboxes/1_Hitbox_Crouch.tres" id="2_fghc2"]
+[ext_resource type="Resource" uid="uid://bcfhwb8mquml6" path="res://Fighters/BruceLee/Hitboxes/2_Hitbox_5A.tres" id="2_pvumc"]
+[ext_resource type="Resource" uid="uid://dcoopbo20ff6k" path="res://Fighters/BruceLee/Stances/0_BruceLee_Stance_Main.tres" id="4_hnu7d"]
+[ext_resource type="Resource" uid="uid://llgxanwbgmic" path="res://Fighters/BruceLee/Hitboxes/3_Hitbox_5B.tres" id="4_mjx4n"]
+[ext_resource type="Resource" uid="uid://buwmtndia24ue" path="res://Fighters/BruceLee/Hitboxes/4_Hitbox_5C.tres" id="5_nicag"]
+[ext_resource type="Resource" uid="uid://uu81xknc7xsa" path="res://Fighters/BruceLee/Hitboxes/5_Hitbox_CrouchA.tres" id="6_dphqt"]
+[ext_resource type="Resource" uid="uid://cxig5llcfm1j5" path="res://Fighters/BruceLee/States/1_BruceLee_MoveF.tres" id="6_hnu7d"]
+[ext_resource type="Resource" uid="uid://cjarssd2mjnuw" path="res://Fighters/Kaede/AI/Kaede_AIData.tres" id="6_j8qtx"]
+[ext_resource type="Resource" uid="uid://cxkqowr2rwhyh" path="res://Fighters/BruceLee/Hitboxes/6_Hitbox_CrouchC.tres" id="7_31k1q"]
+[ext_resource type="Resource" uid="uid://jivs82xk7qld" path="res://Fighters/BruceLee/States/2_BruceLee_MoveB.tres" id="7_vk2ei"]
+[ext_resource type="Resource" uid="uid://dhct70ngxxyad" path="res://Fighters/BruceLee/Hitboxes/7_Hitbox_CrouchB.tres" id="8_31k1q"]
+[ext_resource type="Resource" uid="uid://daeaukeuwmvty" path="res://Fighters/BruceLee/States/3_BruceLee_Jump_Neutral.tres" id="8_e37wp"]
+[ext_resource type="Resource" uid="uid://cksba6bgwu1gj" path="res://Fighters/BruceLee/Hitboxes/8_Hitbox_5E.tres" id="9_77cym"]
+[ext_resource type="Resource" uid="uid://d2h3bmnidaq67" path="res://Fighters/BruceLee/States/4_BruceLee_Jump_Forward.tres" id="9_cyhgi"]
+[ext_resource type="Script" uid="uid://b8vqwkv52qq3e" path="res://Scripts/SakugaEngine/Resources/AnimationSettings.cs" id="10_mjx4n"]
+[ext_resource type="Resource" uid="uid://cqmptqhphjvk5" path="res://Fighters/BruceLee/States/5_BruceLee_Jump_Backwards.tres" id="10_ufwxj"]
+[ext_resource type="Resource" uid="uid://d3orcd5151atj" path="res://Fighters/BruceLee/Hitboxes/9_Hitbox_5F.tres" id="10_ykk2p"]
+[ext_resource type="Script" uid="uid://5qrsoteskjym" path="res://Scripts/SakugaEngine/Resources/HitboxState.cs" id="11_nicag"]
+[ext_resource type="Resource" uid="uid://ds7w764et35n" path="res://Fighters/BruceLee/Hitboxes/10_Hitbox_5G.tres" id="11_siwak"]
+[ext_resource type="Resource" uid="uid://c0brdif5dks8g" path="res://Fighters/BruceLee/States/6_BruceLee_Falling.tres" id="11_xll11"]
+[ext_resource type="Resource" uid="uid://dw01niduyvxvn" path="res://Fighters/BruceLee/Hitboxes/11_Hitbox_CrouchE.tres" id="12_6ycjl"]
+[ext_resource type="Script" uid="uid://bf60srwkccsm8" path="res://Scripts/SakugaEngine/Resources/FighterState.cs" id="12_dphqt"]
+[ext_resource type="Resource" uid="uid://b4so1casiisdj" path="res://Fighters/BruceLee/States/7_BruceLee_AirDash_Forward.tres" id="12_wy1og"]
+[ext_resource type="Script" uid="uid://5you05l2efnd" path="res://Scripts/SakugaEngine/Resources/StatePhysics.cs" id="13_31k1q"]
+[ext_resource type="Resource" uid="uid://bgyh3lsh325wx" path="res://Fighters/BruceLee/Hitboxes/12_Hitbox_CrouchF.tres" id="13_auopx"]
+[ext_resource type="Resource" uid="uid://bj18l0ssvy1ep" path="res://Fighters/BruceLee/States/8_BruceLee_AirDash_Backwards.tres" id="13_fghc2"]
+[ext_resource type="Resource" uid="uid://bjmednckt45tl" path="res://Fighters/BruceLee/States/9_BruceLee_5A.tres" id="14_6w51n"]
+[ext_resource type="Resource" uid="uid://bj2hhrqkrf1g8" path="res://Fighters/BruceLee/Hitboxes/13_Hitbox_CrouchG.tres" id="14_uecod"]
+[ext_resource type="Resource" uid="uid://c2pwrpc2dgfn1" path="res://Fighters/BruceLee/States/10_BruceLee_5B.tres" id="15_vk2ei"]
+[ext_resource type="Resource" uid="uid://b8bav713xkbgr" path="res://Fighters/BruceLee/States/11_BruceLee_5C.tres" id="16_e37wp"]
+[ext_resource type="Resource" uid="uid://v12gw8kfy0ai" path="res://Fighters/BruceLee/States/12_BruceLee_Crouch.tres" id="17_cyhgi"]
+[ext_resource type="Resource" uid="uid://bwu46a7wu71fb" path="res://Fighters/BruceLee/States/13_BruceLee_CrouchA.tres" id="18_ufwxj"]
+[ext_resource type="Resource" uid="uid://byxkmer2mlye0" path="res://Fighters/BruceLee/States/14_BruceLee_CrouchC.tres" id="19_xll11"]
+[ext_resource type="Resource" uid="uid://5nlpkt4upbem" path="res://Fighters/BruceLee/States/15_BruceLee_CrouchExit.tres" id="20_vk2ei"]
+[ext_resource type="Resource" uid="uid://bc30poq7tymmu" path="res://Fighters/BruceLee/States/16_BruceLee_CrouchEnter.tres" id="21_e37wp"]
+[ext_resource type="Resource" uid="uid://7uw52h1yrgu7" path="res://Fighters/BruceLee/States/17_BruceLee_CrouchB.tres" id="31_x2rye"]
+[ext_resource type="Resource" uid="uid://boqes265na88i" path="res://Fighters/BruceLee/States/18_BruceLee_5E.tres" id="32_s81u8"]
+[ext_resource type="Resource" uid="uid://c7ei8i7j5uyow" path="res://Fighters/BruceLee/States/19_BruceLee_5F.tres" id="33_mla3n"]
+[ext_resource type="Resource" uid="uid://b51sbnp7ydhbk" path="res://Fighters/BruceLee/States/20_BruceLee_5G.tres" id="34_o3206"]
+[ext_resource type="Resource" uid="uid://b7mymf31ng1v3" path="res://Fighters/BruceLee/States/21_BruceLee_CrouchE.tres" id="41_k175x"]
+[ext_resource type="Resource" uid="uid://bj13ftj7qx741" path="res://Fighters/BruceLee/States/22_BruceLee_CrouchF.tres" id="42_vayc8"]
+[ext_resource type="Resource" uid="uid://dyjnnkauyi0jt" path="res://Fighters/BruceLee/States/23_BruceLee_CrouchG.tres" id="43_0h2x2"]
+
+[sub_resource type="Resource" id="Resource_du1yt"]
+script = ExtResource("10_mjx4n")
+SourceAnimation = "MarshalIdle"
+metadata/_custom_type_script = "uid://b8vqwkv52qq3e"
+
+[sub_resource type="Resource" id="Resource_rpu4i"]
+script = ExtResource("11_nicag")
+
+[sub_resource type="Resource" id="Resource_aim2h"]
+script = ExtResource("13_31k1q")
+UseLateralSpeed = true
+UseVerticalSpeed = true
+
+[sub_resource type="Resource" id="Resource_nicag"]
+script = ExtResource("12_dphqt")
+Type = 1
+Duration = 58
+Loop = true
+LoopFrames = Vector2i(0, 58)
+stateProperties = null
+statePhysics = Array[Object]([SubResource("Resource_aim2h")])
+hitboxStates = Array[Object]([SubResource("Resource_rpu4i")])
+animationEvents = null
+throwPivot = null
+stateTransitions = null
+animationSettings = Array[Object]([SubResource("Resource_du1yt")])
+
+[resource]
+script = ExtResource("1_tj211")
+Profile = ExtResource("1_tls86")
+Hitboxes = Array[Object]([ExtResource("1_stdsy"), ExtResource("2_fghc2"), ExtResource("2_pvumc"), ExtResource("4_mjx4n"), ExtResource("5_nicag"), ExtResource("6_dphqt"), ExtResource("7_31k1q"), ExtResource("8_31k1q"), ExtResource("9_77cym"), ExtResource("10_ykk2p"), ExtResource("11_siwak"), ExtResource("12_6ycjl"), ExtResource("13_auopx"), ExtResource("14_uecod")])
+States = Array[Object]([SubResource("Resource_nicag"), ExtResource("6_hnu7d"), ExtResource("7_vk2ei"), ExtResource("8_e37wp"), ExtResource("9_cyhgi"), ExtResource("10_ufwxj"), ExtResource("11_xll11"), ExtResource("12_wy1og"), ExtResource("13_fghc2"), ExtResource("14_6w51n"), ExtResource("15_vk2ei"), ExtResource("16_e37wp"), ExtResource("17_cyhgi"), ExtResource("18_ufwxj"), ExtResource("19_xll11"), ExtResource("20_vk2ei"), ExtResource("21_e37wp"), ExtResource("31_x2rye"), ExtResource("32_s81u8"), ExtResource("33_mla3n"), ExtResource("34_o3206"), ExtResource("41_k175x"), ExtResource("42_vayc8"), ExtResource("43_0h2x2")])
+Stances = Array[Object]([ExtResource("4_hnu7d")])
+_aiData = ExtResource("6_j8qtx")
+Intros = Array[Object]([])
+Outros = null
+VictoryPoses = null
+metadata/_custom_type_script = "uid://bsbjg1nuyall1"

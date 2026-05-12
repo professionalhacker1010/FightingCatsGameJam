@@ -17,4 +17,3 @@ Inputs = Array[Object]([SubResource("Resource_6t0yt")])
 [resource]
 script = ExtResource("3_r24yf")
 ValidInputs = Array[Object]([SubResource("Resource_4uo5i")])
-AbsoluteDirection = true

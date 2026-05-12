@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="FighterStance" format=3 uid="uid://dgb23y4du7ou0"]
+
+[ext_resource type="Resource" uid="uid://cttyx6lfp7lc5" path="res://Fighters/Z/Moves/0_Z_MoveF.tres" id="1_8tw7y"]
+[ext_resource type="Resource" uid="uid://bny8naufb1j0o" path="res://Fighters/Z/Moves/1_Z_MoveB.tres" id="2_bnllj"]
+[ext_resource type="Resource" uid="uid://kbolupoedkbt" path="res://Fighters/Z/Moves/2_Z_JumpN.tres" id="3_3rr2m"]
+[ext_resource type="Resource" uid="uid://ded3nitnasga" path="res://Fighters/Z/Moves/3_Z_JumpF.tres" id="4_0qnwo"]
+[ext_resource type="Resource" uid="uid://byihob8uv3jy2" path="res://Fighters/Z/Moves/4_Z_JumpB.tres" id="5_mip78"]
+[ext_resource type="Resource" uid="uid://b47rigimc0q0f" path="res://Fighters/Z/Moves/5_Z_AirDashF.tres" id="6_qbiki"]
+[ext_resource type="Resource" uid="uid://ceb846e14qtyh" path="res://Fighters/Z/Moves/6_Z_AirDashB.tres" id="7_o6eep"]
+[ext_resource type="Resource" uid="uid://b317rx2j1i4ia" path="res://Fighters/Z/Moves/7_Z_5A.tres" id="8_wmbmc"]
+[ext_resource type="Resource" uid="uid://cler4q72ba2w6" path="res://Fighters/Z/Moves/8_Z_5B.tres" id="9_qjgru"]
+[ext_resource type="Resource" uid="uid://c2tmqgmut7i5m" path="res://Fighters/Z/Moves/9_Z_5C.tres" id="10_snsib"]
+[ext_resource type="Resource" uid="uid://b2c88i7f2b3dl" path="res://Fighters/Z/Moves/10_Z_Crouch.tres" id="11_bhu6p"]
+[ext_resource type="Resource" uid="uid://c5wt8ci11ib13" path="res://Fighters/Z/Moves/11_Z_CrouchA.tres" id="12_desba"]
+[ext_resource type="Resource" uid="uid://bin3xlreijy24" path="res://Fighters/Z/Moves/12_Z_CrouchC.tres" id="13_aaxjs"]
+[ext_resource type="Resource" uid="uid://4pc8tbv2c2p7" path="res://Fighters/Z/Moves/13_Z_Uncrouch.tres" id="14_1pciv"]
+[ext_resource type="Script" uid="uid://00dse0vp38l7" path="res://Scripts/SakugaEngine/Resources/FighterStance.cs" id="15_8wg7n"]
+
+
+
+[resource]
+script = ExtResource("15_8wg7n")
+Moves = Array[Object]([ExtResource("1_8tw7y"), ExtResource("2_bnllj"), ExtResource("3_3rr2m"), ExtResource("4_0qnwo"), ExtResource("5_mip78"), ExtResource("6_qbiki"), ExtResource("7_o6eep"), ExtResource("8_wmbmc"), ExtResource("9_qjgru"), ExtResource("10_snsib"), ExtResource("11_bhu6p"), ExtResource("12_desba"), ExtResource("13_aaxjs"), ExtResource("14_1pciv")])
+HitReactions = PackedInt32Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)

@@ -1,0 +1,56 @@
+[gd_resource type="Resource" script_class="FighterState" format=3 uid="uid://7uw52h1yrgu7"]
+
+[ext_resource type="Script" uid="uid://b8vqwkv52qq3e" path="res://Scripts/SakugaEngine/Resources/AnimationSettings.cs" id="1_xvrn7"]
+[ext_resource type="Script" uid="uid://5qrsoteskjym" path="res://Scripts/SakugaEngine/Resources/HitboxState.cs" id="2_k1nr4"]
+[ext_resource type="Script" uid="uid://bf60srwkccsm8" path="res://Scripts/SakugaEngine/Resources/FighterState.cs" id="3_vvef8"]
+[ext_resource type="Script" uid="uid://5you05l2efnd" path="res://Scripts/SakugaEngine/Resources/StatePhysics.cs" id="4_hvr18"]
+[ext_resource type="Script" uid="uid://bia88bspuvxd" path="res://Scripts/SakugaEngine/Resources/StateTransitionSettings.cs" id="5_60ssp"]
+
+[sub_resource type="Resource" id="Resource_csck0"]
+script = ExtResource("1_xvrn7")
+SourceAnimation = "MarshCrouchMedium"
+metadata/_custom_type_script = "uid://b8vqwkv52qq3e"
+
+[sub_resource type="Resource" id="Resource_ixq85"]
+script = ExtResource("2_k1nr4")
+metadata/_custom_type_script = "uid://5qrsoteskjym"
+
+[sub_resource type="Resource" id="Resource_o8lkc"]
+script = ExtResource("2_k1nr4")
+animationStage = 1
+Frame = 6
+HitboxIndex = 14
+metadata/_custom_type_script = "uid://5qrsoteskjym"
+
+[sub_resource type="Resource" id="Resource_h0rf4"]
+script = ExtResource("2_k1nr4")
+animationStage = 2
+Frame = 10
+metadata/_custom_type_script = "uid://5qrsoteskjym"
+
+[sub_resource type="Resource" id="Resource_la6o6"]
+script = ExtResource("4_hvr18")
+UseLateralSpeed = true
+UseVerticalSpeed = true
+metadata/_custom_type_script = "uid://5you05l2efnd"
+
+[sub_resource type="Resource" id="Resource_xjvkh"]
+script = ExtResource("5_60ssp")
+StateIndex = 12
+Condition = 1
+metadata/_custom_type_script = "uid://bia88bspuvxd"
+
+[resource]
+script = ExtResource("3_vvef8")
+StateName = "CrouchB"
+BaseStance = 1
+Type = 2
+Duration = 22
+stateProperties = null
+statePhysics = Array[Object]([SubResource("Resource_la6o6")])
+hitboxStates = Array[Object]([SubResource("Resource_ixq85"), SubResource("Resource_o8lkc"), SubResource("Resource_h0rf4")])
+animationEvents = null
+throwPivot = null
+stateTransitions = Array[Object]([SubResource("Resource_xjvkh")])
+animationSettings = Array[Object]([SubResource("Resource_csck0")])
+metadata/_custom_type_script = "uid://bf60srwkccsm8"
