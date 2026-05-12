@@ -2,7 +2,6 @@
 
 [ext_resource type="Texture2D" uid="uid://6ctweo6uvot8" path="res://icon.svg" id="1_mopnr"]
 [ext_resource type="Texture2D" uid="uid://ccxitpmyk6fge" path="res://Stages/Sakuga Default/Fighting_Game_Stage_Card_Shop_v3 extended.png" id="2_ei8rf"]
-[ext_resource type="PackedScene" uid="uid://dt1x8jjxdjeow" path="res://Fighters/BruceLee/Instances/Dummy_BruceLee_Default.tscn" id="3_dj23f"]
 [ext_resource type="PackedScene" uid="uid://chpciwgk08r8v" path="res://Art/Models/basic_wall.glb" id="4_dj23f"]
 [ext_resource type="PackedScene" uid="uid://bov73xm8anirp" path="res://Art/Models/cardboard_box.glb" id="5_ft3p8"]
 [ext_resource type="PackedScene" uid="uid://bp3ceebq14wg0" path="res://Art/Models/shelf.glb" id="6_ok44m"]
@@ -66,9 +65,6 @@ mesh = SubResource("BoxMesh_ql5gv")
 transform = Transform3D(3.8999977, 5.1298143e-06, -0.0018855282, -0.0042579966, -4.199697e-12, -1.7269989, -0.0002273439, 0.088, 1.0983133e-07, 0.025486112, 1.676089, -0.9496424)
 mesh = SubResource("PlaneMesh_ei8rf")
 surface_material_override/0 = SubResource("StandardMaterial3D_dj23f")
-
-[node name="BrucLee_Fighter" parent="." unique_id=2103503203 instance=ExtResource("3_dj23f")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.8361354, 0, 0.3023026)
 
 [node name="Right Wall" parent="." unique_id=1791759487 instance=ExtResource("4_dj23f")]
 transform = Transform3D(-5.5998516e-08, 0, -0.3023912, 0, 1.0911921, 0, 1.2810967, 0, -1.321794e-08, 3.9518626, 1.5342513, 1.1309538)
