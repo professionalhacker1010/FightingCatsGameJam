@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://h0mhm1j7hlgd"
-path="res://.godot/imported/Ken Lau Select.wav-99f0ce765ee9f8869741094710446734.sample"
+path="res://.godot/imported/Ken Lau Select.wav-5ca13146616517fbc1cccbed184a55f2.sample"
 
 [deps]
 
-source_file="res://DEV/MATT/CLAIRE (AUDIO)/Ken Lau Select.wav"
-dest_files=["res://.godot/imported/Ken Lau Select.wav-99f0ce765ee9f8869741094710446734.sample"]
+source_file="res://Audio/Ken Lau Select.wav"
+dest_files=["res://.godot/imported/Ken Lau Select.wav-5ca13146616517fbc1cccbed184a55f2.sample"]
 
 [params]
 

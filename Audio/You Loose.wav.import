@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://cg8wuso464rnp"
-path="res://.godot/imported/You Loose.wav-5ec1a3ac9ca128a091764564d5d912db.sample"
+path="res://.godot/imported/You Loose.wav-593ca775a37434765025946151a362e8.sample"
 
 [deps]
 
-source_file="res://DEV/MATT/CLAIRE (AUDIO)/You Loose.wav"
-dest_files=["res://.godot/imported/You Loose.wav-5ec1a3ac9ca128a091764564d5d912db.sample"]
+source_file="res://Audio/You Loose.wav"
+dest_files=["res://.godot/imported/You Loose.wav-593ca775a37434765025946151a362e8.sample"]
 
 [params]
 
