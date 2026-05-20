@@ -590,6 +590,9 @@ _data = {
 &"RoundStart": SubResource("Animation_xjl2p")
 }
 
+[sub_resource type="FontVariation" id="FontVariation_ysn3l"]
+baseline_offset = -0.45
+
 [node name="CanvasLayer" type="CanvasLayer" unique_id=1639285127]
 
 [node name="GameHUD_Background" type="Control" parent="." unique_id=1728610067 node_paths=PackedStringArray("P1Portrait", "P1Health", "P1LostHealth", "P1Rounds", "P1Combo", "P1Name", "P2Portrait", "P2Health", "P2LostHealth", "P2Rounds", "P2Combo", "P2Name", "Timer", "P1Debug", "P2Debug")]
@@ -796,6 +799,7 @@ offset_right = -285.0
 offset_bottom = 63.0
 grow_horizontal = 2
 scale = Vector2(2, 2)
+theme_override_constants/outline_size = 10
 text = "Fighter 1"
 
 [node name="P2Name" type="Label" parent="GameHUD_Background/HealthBars" unique_id=1485341128]
@@ -809,6 +813,7 @@ offset_right = 291.0
 offset_bottom = 63.0
 grow_horizontal = 2
 scale = Vector2(2, 2)
+theme_override_constants/outline_size = 10
 text = "Fighter 2"
 horizontal_alignment = 2
 
@@ -823,6 +828,8 @@ offset_right = 46.0
 offset_bottom = 134.0
 grow_horizontal = 2
 pivot_offset = Vector2(46, 55)
+theme_override_colors/font_color = Color(0.9098039, 0.6039216, 0.85490197, 1)
+theme_override_constants/outline_size = 10
 theme_override_font_sizes/font_size = 80
 text = "99"
 horizontal_alignment = 1
@@ -1427,11 +1434,11 @@ offset_bottom = 147.00024
 grow_horizontal = 2
 grow_vertical = 2
 pivot_offset = Vector2(328, 147)
-theme_override_constants/outline_size = 2
+theme_override_constants/outline_size = 30
+theme_override_fonts/font = SubResource("FontVariation_ysn3l")
 theme_override_font_sizes/font_size = 70
-text = "Insert some
-cool and poetic line
-here!"
+text = "The store
+is almost closing!"
 horizontal_alignment = 1
 vertical_alignment = 1
 
@@ -1450,9 +1457,9 @@ offset_bottom = 77.0
 grow_horizontal = 2
 grow_vertical = 2
 pivot_offset = Vector2(209, 68.5)
-theme_override_constants/outline_size = 2
+theme_override_constants/outline_size = 30
 theme_override_font_sizes/font_size = 80
-text = "Round N"
+text = "Aisle N"
 horizontal_alignment = 1
 vertical_alignment = 1
 
@@ -1471,7 +1478,8 @@ offset_bottom = 68.5
 grow_horizontal = 2
 grow_vertical = 2
 pivot_offset = Vector2(209, 68.5)
-theme_override_constants/outline_size = 2
+theme_override_colors/font_color = Color(0.99710315, 0.116902865, 0.30909097, 1)
+theme_override_constants/outline_size = 30
 theme_override_font_sizes/font_size = 100
 text = "FIGHT!"
 horizontal_alignment = 1
@@ -1492,9 +1500,10 @@ offset_bottom = 77.00012
 grow_horizontal = 2
 grow_vertical = 2
 pivot_offset = Vector2(209, 68.5)
-theme_override_constants/outline_size = 2
+theme_override_colors/font_color = Color(1, 0.7607843, 0.015686275, 1)
+theme_override_constants/outline_size = 30
 theme_override_font_sizes/font_size = 100
-text = "K.O."
+text = "K.O.!"
 horizontal_alignment = 1
 vertical_alignment = 1
 
@@ -1506,16 +1515,17 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -190.0
+offset_left = -223.49951
 offset_top = -60.0
-offset_right = 228.00098
+offset_right = 261.5005
 offset_bottom = 77.00055
 grow_horizontal = 2
 grow_vertical = 2
 pivot_offset = Vector2(209, 68.5)
-theme_override_constants/outline_size = 2
+theme_override_colors/font_color = Color(0.44705883, 0.74509805, 1, 1)
+theme_override_constants/outline_size = 30
 theme_override_font_sizes/font_size = 80
-text = "Draw..."
+text = "No contest..."
 horizontal_alignment = 1
 vertical_alignment = 1
 
@@ -1529,7 +1539,7 @@ offset_top = -60.0
 offset_right = 418.0
 offset_bottom = 77.0
 grow_vertical = 2
-theme_override_constants/outline_size = 2
+theme_override_constants/outline_size = 30
 theme_override_font_sizes/font_size = 60
 text = "P1 Win!"
 
@@ -1548,7 +1558,7 @@ offset_bottom = 76.99994
 grow_horizontal = 0
 grow_vertical = 2
 pivot_offset = Vector2(418, 0)
-theme_override_constants/outline_size = 2
+theme_override_constants/outline_size = 30
 theme_override_font_sizes/font_size = 60
 text = "P2 Win!"
 horizontal_alignment = 2

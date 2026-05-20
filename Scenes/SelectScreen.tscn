@@ -22,6 +22,11 @@
 [ext_resource type="Script" uid="uid://bvwd6emkqafdy" path="res://Scripts/SakugaEngine/UI/ColorSelectMenu.cs" id="17_u1s66"]
 [ext_resource type="Texture2D" uid="uid://cw7llwhkqnheo" path="res://Sprites/Arrow.png" id="18_7p58r"]
 
+[sub_resource type="FontVariation" id="FontVariation_u1s66"]
+variation_embolden = 0.46
+spacing_glyph = 3
+spacing_top = 14
+
 [node name="Control" type="Control" unique_id=464996932 node_paths=PackedStringArray("CharacterSelectMode", "StageSelectMode", "P1SelectedRender", "P2SelectedRender", "P1SelectedName", "P2SelectedName", "P1Cursor", "P2Cursor", "charactersContainer", "P1ColorSelect", "P2ColorSelect", "StageSelectedRender", "StageSelectedName", "SongSelectedName", "P1SelectingStage", "P2SelectingStage", "StageCursor", "stagesContainer")]
 layout_mode = 3
 anchors_preset = 15
@@ -142,8 +147,11 @@ offset_left = -197.0
 offset_right = 197.0
 offset_bottom = 69.0
 grow_horizontal = 2
+theme_override_colors/font_color = Color(1, 1, 0.5294118, 1)
+theme_override_constants/outline_size = 30
+theme_override_fonts/font = SubResource("FontVariation_u1s66")
 theme_override_font_sizes/font_size = 50
-text = "Character Select"
+text = "Select your scalper!"
 horizontal_alignment = 1
 
 [node name="P1SelectedName" type="Label" parent="CharacterSelect" unique_id=754449147]
@@ -156,6 +164,7 @@ offset_top = -100.0
 offset_right = 414.0
 offset_bottom = -31.0
 grow_vertical = 0
+theme_override_constants/outline_size = 30
 theme_override_font_sizes/font_size = 50
 text = "Character Select"
 
@@ -172,6 +181,7 @@ offset_right = -20.0
 offset_bottom = -31.0
 grow_horizontal = 0
 grow_vertical = 0
+theme_override_constants/outline_size = 30
 theme_override_font_sizes/font_size = 50
 text = "Character Select"
 horizontal_alignment = 2
