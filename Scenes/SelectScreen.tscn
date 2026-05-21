@@ -18,6 +18,7 @@
 [ext_resource type="Texture2D" uid="uid://btffyblli32iy" path="res://Sprites/P2_CSS.png" id="10_vt3nd"]
 [ext_resource type="Texture2D" uid="uid://crn7f11jusxo0" path="res://Sprites/Song_Icon.png" id="11_83tgi"]
 [ext_resource type="Texture2D" uid="uid://c3cyqacvyusmv" path="res://Fighters/Dummy/capsule_render.png" id="12_7p58r"]
+[ext_resource type="AudioStream" uid="uid://drta6ielwvwik" path="res://Audio/fighter_select_2.wav" id="16_mk26h"]
 [ext_resource type="PackedScene" uid="uid://54usvtxxigmk" path="res://Scenes/Instances/ColorSelectionElement.tscn" id="17_8r0cl"]
 [ext_resource type="Script" uid="uid://bvwd6emkqafdy" path="res://Scripts/SakugaEngine/UI/ColorSelectMenu.cs" id="17_u1s66"]
 [ext_resource type="Texture2D" uid="uid://cw7llwhkqnheo" path="res://Sprites/Arrow.png" id="18_7p58r"]
@@ -153,6 +154,10 @@ theme_override_fonts/font = SubResource("FontVariation_u1s66")
 theme_override_font_sizes/font_size = 50
 text = "Select your scalper!"
 horizontal_alignment = 1
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="CharacterSelect/Title" unique_id=1494679959]
+stream = ExtResource("16_mk26h")
+autoplay = true
 
 [node name="P1SelectedName" type="Label" parent="CharacterSelect" unique_id=754449147]
 layout_mode = 1

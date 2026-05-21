@@ -3,6 +3,7 @@
 [ext_resource type="Script" uid="uid://c2l2206ftntd2" path="res://Scripts/SakugaEngine/UI/MainMenu.cs" id="1_tt5f1"]
 [ext_resource type="Resource" uid="uid://c320twmibeytx" path="res://MatchSettings.tres" id="2_853f1"]
 [ext_resource type="Texture2D" uid="uid://dysw1he61htpm" path="res://Art/UI/screen_main_v2.png" id="3_8saeu"]
+[ext_resource type="AudioStream" uid="uid://cswler5kkyepa" path="res://Audio/fighter_select_3.wav" id="4_ghw46"]
 
 [sub_resource type="FontVariation" id="FontVariation_8saeu"]
 variation_embolden = 0.37
@@ -58,6 +59,10 @@ theme_override_font_sizes/font_size = 60
 text = "The Last Card Pack"
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="MainMenu/Label" unique_id=523725441]
+stream = ExtResource("4_ghw46")
+autoplay = true
 
 [node name="Control" type="Control" parent="MainMenu" unique_id=139022730]
 anchors_preset = 0
