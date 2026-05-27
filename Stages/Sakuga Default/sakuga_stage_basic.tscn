@@ -1,7 +1,8 @@
 [gd_scene format=3 uid="uid://dk22qgaiwdb7k"]
 
 [ext_resource type="Texture2D" uid="uid://6ctweo6uvot8" path="res://icon.svg" id="1_mopnr"]
-[ext_resource type="Texture2D" uid="uid://ccxitpmyk6fge" path="res://Stages/Sakuga Default/Fighting_Game_Stage_Card_Shop_v3 extended.png" id="2_ei8rf"]
+[ext_resource type="Texture2D" uid="uid://bbvcmhp3wgi0q" path="res://Stages/Sakuga Default/Fighting_Game_Stage_Floor Texture.PNG" id="2_ok44m"]
+[ext_resource type="Texture2D" uid="uid://2y74y6y6pld4" path="res://Stages/Sakuga Default/Fighting_Game_Stage_Card_Shop_v4 extended_color.PNG" id="3_ikf2y"]
 [ext_resource type="PackedScene" uid="uid://chpciwgk08r8v" path="res://Art/Models/basic_wall.glb" id="4_dj23f"]
 [ext_resource type="PackedScene" uid="uid://bov73xm8anirp" path="res://Art/Models/cardboard_box.glb" id="5_ft3p8"]
 [ext_resource type="PackedScene" uid="uid://bp3ceebq14wg0" path="res://Art/Models/shelf.glb" id="6_ok44m"]
@@ -26,10 +27,13 @@ uv1_scale = Vector3(28, 2, 2)
 material = SubResource("StandardMaterial3D_u05s4")
 size = Vector3(20, 0.2, 2)
 
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_mfbay"]
+albedo_texture = ExtResource("2_ok44m")
+
 [sub_resource type="PlaneMesh" id="PlaneMesh_ei8rf"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dj23f"]
-albedo_texture = ExtResource("2_ei8rf")
+albedo_texture = ExtResource("3_ikf2y")
 
 [node name="Sakuga_Stage_Basic" type="Node3D" unique_id=1780144471]
 
@@ -60,6 +64,7 @@ environment = SubResource("Environment_iltph")
 [node name="Floor" type="MeshInstance3D" parent="." unique_id=1538788272]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.1, 0)
 mesh = SubResource("BoxMesh_ql5gv")
+surface_material_override/0 = SubResource("StandardMaterial3D_mfbay")
 
 [node name="BG" type="MeshInstance3D" parent="." unique_id=682536857]
 transform = Transform3D(3.8999977, 5.1298143e-06, -0.0018855282, -0.0042579966, -4.199697e-12, -1.7269989, -0.0002273439, 0.088, 1.0983133e-07, 0.025486112, 1.676089, -0.9496424)
