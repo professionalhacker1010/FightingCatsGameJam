@@ -6,7 +6,7 @@
 [sub_resource type="Resource" id="Resource_kbam0"]
 script = ExtResource("1_qh4u1")
 Center = Vector2i(6000, 5500)
-Size = Vector2i(2000, 2000)
+Size = Vector2i(5000, 2000)
 HitboxType = 1
 HitType = 2
 BaseDamage = 1250
