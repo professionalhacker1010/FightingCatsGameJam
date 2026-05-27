@@ -29,6 +29,8 @@ size = Vector3(20, 0.2, 2)
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_mfbay"]
 albedo_texture = ExtResource("2_ok44m")
+uv1_scale = Vector3(1, 1, 2.5)
+uv1_triplanar = true
 
 [sub_resource type="PlaneMesh" id="PlaneMesh_ei8rf"]
 
@@ -62,7 +64,7 @@ light_energy = 11.841
 environment = SubResource("Environment_iltph")
 
 [node name="Floor" type="MeshInstance3D" parent="." unique_id=1538788272]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.1, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 3.972046, 0, -0.1, 0)
 mesh = SubResource("BoxMesh_ql5gv")
 surface_material_override/0 = SubResource("StandardMaterial3D_mfbay")
 
