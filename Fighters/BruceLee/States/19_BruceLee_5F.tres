@@ -18,7 +18,7 @@ metadata/_custom_type_script = "uid://5qrsoteskjym"
 [sub_resource type="Resource" id="Resource_jnf3a"]
 script = ExtResource("2_ymubg")
 animationStage = 1
-Frame = 6
+Frame = 12
 HitboxIndex = 9
 metadata/_custom_type_script = "uid://5qrsoteskjym"
 

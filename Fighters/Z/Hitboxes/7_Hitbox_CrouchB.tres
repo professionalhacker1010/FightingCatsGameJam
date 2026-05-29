@@ -10,6 +10,7 @@ Size = Vector2i(2500, 2500)
 HitboxType = 1
 HitType = 1
 BaseDamage = 750
+ChipDamage = 250
 metadata/_custom_type_script = "uid://c0y740kryylcs"
 
 [resource]

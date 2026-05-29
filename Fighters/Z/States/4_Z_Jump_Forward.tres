@@ -22,7 +22,7 @@ Frame = 4
 UseLateralSpeed = true
 LateralSpeed = 22000
 UseVerticalSpeed = true
-VerticalSpeed = 50500
+VerticalSpeed = 60000
 UseGravity = true
 
 [sub_resource type="Resource" id="Resource_bsfq0"]

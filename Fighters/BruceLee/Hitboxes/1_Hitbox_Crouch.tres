@@ -7,6 +7,7 @@
 script = ExtResource("1_cfbwf")
 Center = Vector2i(1000, 4000)
 Size = Vector2i(6500, 8400)
+HitType = 2
 AirBlockKnockbackGravity = 300000
 SelfPushbackForce = 0
 SelfPushbackDuration = 0

@@ -8,8 +8,9 @@ script = ExtResource("1_j64kn")
 Center = Vector2i(5800, 7000)
 Size = Vector2i(2800, 2000)
 HitboxType = 1
-HitType = 2
+HitType = 1
 BaseDamage = 900
+ChipDamage = 400
 metadata/_custom_type_script = "uid://c0y740kryylcs"
 
 [resource]
