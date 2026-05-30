@@ -20,7 +20,6 @@
 [ext_resource type="Script" uid="uid://c74ackq5g2cbw" path="res://Scripts/SakugaEngine/Resources/MatchAnimation.cs" id="15_ysn3l"]
 [ext_resource type="AudioStream" uid="uid://2sgo6or5kbb7" path="res://Audio/intro_1.wav" id="16_4120v"]
 [ext_resource type="Script" uid="uid://3uu6r0mhj3p3" path="res://Scripts/SakugaEngine/Components/SoundQueue.cs" id="17_fweai"]
-[ext_resource type="AudioStream" uid="uid://cbsew7pdr6rqq" path="res://Audio/fight.wav" id="17_lwnqj"]
 
 [sub_resource type="Resource" id="Resource_4120v"]
 script = ExtResource("15_ysn3l")
@@ -1492,11 +1491,6 @@ theme_override_font_sizes/font_size = 100
 text = "FIGHT!"
 horizontal_alignment = 1
 vertical_alignment = 1
-
-[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="MatchCards/FIGHT!" unique_id=1752314012]
-stream = ExtResource("17_lwnqj")
-autoplay = true
-bus = &"Announcer"
 
 [node name="KO" type="Label" parent="MatchCards" unique_id=228166061]
 visible = false
