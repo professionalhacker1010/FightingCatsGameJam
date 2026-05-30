@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cmolevrck2f5w"
+path="res://.godot/imported/Kevin Macleod Cyborg Ninja.wav-6438863d2fffb3891ec9ac60aa223367.sample"
+
+[deps]
+
+source_file="res://Songs/Kevin Macleod Cyborg Ninja.wav"
+dest_files=["res://.godot/imported/Kevin Macleod Cyborg Ninja.wav-6438863d2fffb3891ec9ac60aa223367.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2
